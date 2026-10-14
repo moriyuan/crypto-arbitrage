@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "date": "2026-10-14",
+  "scope": "Standalone publication copy; no market replay or trading launched",
+  "tests": {
+    "core": {
+      "passed": 587,
+      "skipped": 2,
+      "command": "python -m pytest tests"
+    },
+    "latest_microstructure": {
+      "passed": 50,
+      "command": "python -m pytest research/arb-runs/20261013-btw-microstructure-gate-code/test_*.py"
+    }
+  },
+  "cpp_compile": {
+    "passed": true,
+    "command": "c++ -std=c++20 -O2 research/arb-runs/20261013-btw-microstructure-gate-code/perfect_taker.cpp -o /tmp/crypto-arbitrage-perfect-taker"
+  },
+  "python": "3.12.13",
+  "tested_dependencies": {
+    "httpx": "0.28.1",
+    "numpy": "2.5.2",
+    "websockets": "16.1.1",
+    "pandas": "3.0.5",
+    "pytest": "9.1.1",
+    "pytest-asyncio": "1.4.0"
+  },
+  "copied_file_hashes_checked": 295,
+  "excluded_raw_archives": true,
+  "excluded_real_credentials": true
+}

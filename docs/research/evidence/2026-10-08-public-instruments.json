@@ -1,0 +1,317 @@
+{
+  "scope": "Selected public instrument responses; not price quotes or execution latency measurements.",
+  "hash_encoding": "SHA256 of selected, UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "records": [
+    {
+      "venue": "binance",
+      "url": "https://fapi.binance.com/fapi/v1/exchangeInfo",
+      "requested_at_utc": "2026-10-08T09:02:51.313290+00:00",
+      "http_status": 200,
+      "business_code": null,
+      "request_elapsed_ms": 945,
+      "selected_sha256": "68d0b602e1dd3c6b3e54f86fe4dc23527f1bfee61120461fb2132bcf7addc1c7",
+      "selected": [
+        {
+          "symbol": "BTCUSDT",
+          "pair": "BTCUSDT",
+          "contractType": "PERPETUAL",
+          "deliveryDate": 4133404800000,
+          "onboardDate": 1567965300000,
+          "status": "TRADING",
+          "maintMarginPercent": "2.5000",
+          "requiredMarginPercent": "5.0000",
+          "baseAsset": "BTC",
+          "quoteAsset": "USDT",
+          "marginAsset": "USDT",
+          "pricePrecision": 2,
+          "quantityPrecision": 3,
+          "baseAssetPrecision": 8,
+          "quotePrecision": 8,
+          "underlyingType": "COIN",
+          "underlyingSubType": [
+            "PoW",
+            "Crypto"
+          ],
+          "triggerProtect": "0.0500",
+          "liquidationFee": "0.012500",
+          "marketTakeBound": "0.05",
+          "maxMoveOrderLimit": 10000,
+          "filters": [
+            {
+              "minPrice": "556.80",
+              "tickSize": "0.10",
+              "maxPrice": "4529764",
+              "filterType": "PRICE_FILTER"
+            },
+            {
+              "minQty": "0.001",
+              "maxQty": "1000",
+              "stepSize": "0.001",
+              "filterType": "LOT_SIZE"
+            },
+            {
+              "stepSize": "0.001",
+              "minQty": "0.001",
+              "maxQty": "120",
+              "filterType": "MARKET_LOT_SIZE"
+            },
+            {
+              "filterType": "MAX_NUM_ORDERS",
+              "limit": 200
+            },
+            {
+              "notional": "50",
+              "filterType": "MIN_NOTIONAL"
+            },
+            {
+              "multiplierUp": "1.0500",
+              "multiplierDown": "0.9500",
+              "filterType": "PERCENT_PRICE",
+              "multiplierDecimal": "4"
+            },
+            {
+              "filterType": "POSITION_RISK_CONTROL",
+              "positionControlSide": "NONE"
+            }
+          ],
+          "orderTypes": [
+            "LIMIT",
+            "MARKET",
+            "STOP",
+            "STOP_MARKET",
+            "TAKE_PROFIT",
+            "TAKE_PROFIT_MARKET",
+            "TRAILING_STOP_MARKET"
+          ],
+          "timeInForce": [
+            "GTC",
+            "IOC",
+            "FOK",
+            "GTX",
+            "GTD"
+          ],
+          "permissionSets": [
+            "GRID",
+            "COPY",
+            "DCA",
+            "PSB"
+          ]
+        },
+        {
+          "symbol": "ETHUSDT",
+          "pair": "ETHUSDT",
+          "contractType": "PERPETUAL",
+          "deliveryDate": 4133404800000,
+          "onboardDate": 1574840700000,
+          "status": "TRADING",
+          "maintMarginPercent": "2.5000",
+          "requiredMarginPercent": "5.0000",
+          "baseAsset": "ETH",
+          "quoteAsset": "USDT",
+          "marginAsset": "USDT",
+          "pricePrecision": 2,
+          "quantityPrecision": 3,
+          "baseAssetPrecision": 8,
+          "quotePrecision": 8,
+          "underlyingType": "COIN",
+          "underlyingSubType": [
+            "Layer-1",
+            "Crypto"
+          ],
+          "triggerProtect": "0.0500",
+          "liquidationFee": "0.012500",
+          "marketTakeBound": "0.05",
+          "maxMoveOrderLimit": 10000,
+          "filters": [
+            {
+              "filterType": "PRICE_FILTER",
+              "maxPrice": "306177",
+              "minPrice": "39.86",
+              "tickSize": "0.01"
+            },
+            {
+              "minQty": "0.001",
+              "filterType": "LOT_SIZE",
+              "maxQty": "10000",
+              "stepSize": "0.001"
+            },
+            {
+              "filterType": "MARKET_LOT_SIZE",
+              "minQty": "0.001",
+              "maxQty": "2000",
+              "stepSize": "0.001"
+            },
+            {
+              "filterType": "MAX_NUM_ORDERS",
+              "limit": 200
+            },
+            {
+              "filterType": "MIN_NOTIONAL",
+              "notional": "20"
+            },
+            {
+              "multiplierDown": "0.9500",
+              "multiplierUp": "1.0500",
+              "multiplierDecimal": "4",
+              "filterType": "PERCENT_PRICE"
+            },
+            {
+              "filterType": "POSITION_RISK_CONTROL",
+              "positionControlSide": "NONE"
+            }
+          ],
+          "orderTypes": [
+            "LIMIT",
+            "MARKET",
+            "STOP",
+            "STOP_MARKET",
+            "TAKE_PROFIT",
+            "TAKE_PROFIT_MARKET",
+            "TRAILING_STOP_MARKET"
+          ],
+          "timeInForce": [
+            "GTC",
+            "IOC",
+            "FOK",
+            "GTX",
+            "GTD"
+          ],
+          "permissionSets": [
+            "GRID",
+            "COPY",
+            "DCA",
+            "PSB"
+          ]
+        }
+      ]
+    },
+    {
+      "venue": "bybit",
+      "url": "https://api.bybit.com/v5/market/instruments-info?category=linear&symbol=BTCUSDT",
+      "requested_at_utc": "2026-10-08T09:02:51.313686+00:00",
+      "http_status": 200,
+      "business_code": 0,
+      "request_elapsed_ms": 809,
+      "selected_sha256": "22d69d37fcdb5479b3094e56ab9ba56f92c347e57291c0719295b971ae813f15",
+      "selected": [
+        {
+          "symbol": "BTCUSDT",
+          "contractType": "LinearPerpetual",
+          "status": "Trading",
+          "baseCoin": "BTC",
+          "quoteCoin": "USDT",
+          "launchTime": "1584230400000",
+          "deliveryTime": "0",
+          "deliveryFeeRate": "",
+          "priceScale": "2",
+          "leverageFilter": {
+            "minLeverage": "1",
+            "maxLeverage": "150.00",
+            "leverageStep": "0.01"
+          },
+          "priceFilter": {
+            "minPrice": "0.10",
+            "maxPrice": "1999999.80",
+            "tickSize": "0.10"
+          },
+          "lotSizeFilter": {
+            "maxOrderQty": "1500.000",
+            "minOrderQty": "0.001",
+            "qtyStep": "0.001",
+            "postOnlyMaxOrderQty": "1500.000",
+            "maxMktOrderQty": "150.000",
+            "minNotionalValue": "5"
+          },
+          "unifiedMarginTrade": true,
+          "fundingInterval": 480,
+          "settleCoin": "USDT",
+          "copyTrading": "both",
+          "upperFundingRate": "0.00333",
+          "lowerFundingRate": "-0.00333",
+          "isPreListing": false,
+          "preListingInfo": null,
+          "riskParameters": {
+            "priceLimitRatioX": "0.01",
+            "priceLimitRatioY": "0.02"
+          },
+          "displayName": "BTCUSDT",
+          "symbolType": "",
+          "forbidUplWithdrawal": false,
+          "symbolId": 5,
+          "fullName": "Bitcoin",
+          "marketRegion": "",
+          "underlyingTicker": "",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "venue": "okx",
+      "url": "https://www.okx.com/api/v5/public/instruments?instType=SWAP&instId=BTC-USDT-SWAP",
+      "requested_at_utc": "2026-10-08T09:02:51.313851+00:00",
+      "http_status": 200,
+      "business_code": "0",
+      "request_elapsed_ms": 841,
+      "selected_sha256": "208f445710d433955bd2de2111b842e6065991ef4b59d68a7c348331daf1d6cf",
+      "selected": [
+        {
+          "alias": "",
+          "auctionEndTime": "",
+          "baseCcy": "",
+          "category": "1",
+          "contTdSwTime": "1611916860000",
+          "ctMult": "1",
+          "ctType": "linear",
+          "ctVal": "0.01",
+          "ctValCcy": "BTC",
+          "expTime": "",
+          "floatPxLmtPct": "0.005",
+          "freq": "",
+          "futureSettlement": false,
+          "groupId": "4",
+          "initPxLmtPct": "0.02",
+          "instCategory": "1",
+          "instFamily": "BTC-USDT",
+          "instId": "BTC-USDT-SWAP",
+          "instIdCode": 10459,
+          "instType": "SWAP",
+          "lever": "100",
+          "listTime": "1573557408000",
+          "longPosRemainingQuota": "",
+          "lotSz": "0.01",
+          "maxIcebergSz": "100000000.0000000000000000",
+          "maxLmtAmt": "20000000",
+          "maxLmtSz": "100000000",
+          "maxMktAmt": "",
+          "maxMktSz": "35000",
+          "maxPlatOICoinLmt": "",
+          "maxPlatOILmt": "",
+          "maxPxLmtPct": "0.01",
+          "maxStopSz": "35000",
+          "maxTriggerSz": "100000000.0000000000000000",
+          "maxTwapSz": "100000000.0000000000000000",
+          "method": "",
+          "minSz": "0.01",
+          "openType": "call_auction",
+          "optType": "",
+          "posLmtAmt": "250000",
+          "posLmtPct": "30",
+          "preMktSwTime": "",
+          "quoteCcy": "",
+          "rpiMinLevel": "3",
+          "rpiMinPxBand": "20",
+          "ruleType": "normal",
+          "seriesId": "",
+          "settleCcy": "USDT",
+          "shortPosRemainingQuota": "",
+          "state": "live",
+          "stk": "",
+          "tickSz": "0.1",
+          "tradeQuoteCcyList": [],
+          "uly": "BTC-USDT",
+          "upcChg": []
+        }
+      ]
+    }
+  ]
+}

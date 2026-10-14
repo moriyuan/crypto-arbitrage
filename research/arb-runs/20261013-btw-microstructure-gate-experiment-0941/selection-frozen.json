@@ -1,0 +1,56 @@
+{
+  "status": "NO_ELIGIBLE_IMPROVEMENT_BASELINE_RETAINED",
+  "frozen_utc": "2026-10-13T09:59:58.619743+00:00",
+  "execution_enabled": false,
+  "selected_id": "baseline",
+  "best": null,
+  "eligible_candidates": 0,
+  "ranking_rule": {
+    "minimum_cycles_each_fit_day": 10,
+    "promote_requires": [
+      "valid accounting/funding/no residual",
+      "strict improvement in both worst-day and total fit net vs baseline",
+      "strict total fit net improvement versus explicit control_id"
+    ],
+    "ranking": [
+      "highest worst-day net",
+      "highest fit total net",
+      "lowest sum drawdown",
+      "lexical id"
+    ],
+    "fallback": "baseline",
+    "freeze_before_evaluation": true,
+    "evaluation_all_predeclared_diagnostic": true
+  },
+  "fit_dates": [
+    "2026-08-01",
+    "2026-09-01"
+  ],
+  "evaluation_date": "2026-10-01",
+  "evaluation_date_results_consumed": false,
+  "evaluation_all_predeclared_policies_diagnostic": true,
+  "primary_evaluation_id": "baseline",
+  "source_sha256": {
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/feature-gate-acceptance.json": "cd9dfa4055d1f69ae45738d5b809e9fb8b403fe707d225c7af407159eee1c3ec",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-08-01/aggregate.json": "7926363ec88ad391d29f3fd3894f94a729ec57748a0d5a12b911a605fabed2ec",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-08-01/perfect-audit.json": "f856a9abd3df77413781210ca7b3fc73dae43e1236cad084506d87171b74c608",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-08-01.launch.json": "3df43cc8c305103a064ac3f953529f972eceeeb68c1e32772b2bb1c39191cb6d",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-09-01/aggregate.json": "fa1e44962797423f21c7c04b0ccd813a18b9b4d5c7a0616bbf347f847e23738a",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-09-01/perfect-audit.json": "138aa94d4d645b7570a864f04799f0e7856f4c660c5967eb158b9ecc7e5b5ca6",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-09-01.launch.json": "b6143347509a2c7785ad25dd4cd46ec93d020bd575f0e1f5447866163f106487"
+  },
+  "protocol_sha256": "efe60bc4a2dbed66d55b4e40a3a5d18d20b9b1db18dbd4db8535728dd4724a74",
+  "policies_sha256": "a765f4a3b1f94c63855eec441b7befb489741bb35799a0c1ad05c72906b96e2f",
+  "input_manifest_sha256": "8c2888b13153f6394764d6a3d0bb76629df8ed194baa229c1de2251fc82f99b5",
+  "execution_code_sha256": {
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/perfect_taker": "0374a57e930c0997772c264206de3194dd04a86e66c271a97c776118c614cdc2",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/perfect_taker.cpp": "bb7a9f03239e1e91dd0a0b6e77bf56a03f3c733e881a93918d6945a15e397ef8",
+    "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-code/cohort_replay.cpp": "30117b2c430c14c933d9ad66b443c9cd3425d55b05df929ddaf79b2a3699bee3"
+  },
+  "code_sha256": {
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/freeze_selection.py": "d173eab3ba4ab59c2d049df77efd499b90e9d47fd3649834058b581fb3808032",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/selection.py": "d7699ed02a864a8bdd467d1f515f4c54836436bba1fde14970803022c753cae3",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-perfect-taker-code/freeze_selection.py": "c5c7ca1c9cb58fa4c95d62def02959b7e21f2c0028b255f6680d0788af680470"
+  },
+  "grid_scores_sha256": "6e857be4b6900bc501462eb7fbf03cc7d32e69ee8118381dee2058fc6268f5da"
+}

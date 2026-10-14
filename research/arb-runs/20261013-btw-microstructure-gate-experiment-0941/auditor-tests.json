@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "tests": 6,
+  "source_sha256": {
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/microstructure_oracle.py": "fd8448edfdbef6d1c237981864d36e1d502ae13805bcea87980e443e392c8a49",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/test_microstructure_oracle.py": "19577579e56648f2f0d88202331e68bed2132f1ca625f7a983517f09410df017"
+  },
+  "new_test_scope": "Exact (t-W,t] boundaries, full60s warmup, same-ns event ordinal, disconnect recovery, vector prefix-vs-direct enumeration, persistence100ms cutoff, direction/reset, inclusive ratio/persistence thresholds"
+}

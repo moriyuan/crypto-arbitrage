@@ -1,0 +1,2 @@
+# Audited upstream stable HEAD on 2026-10-08; Freqtrade reports 2026.9.
+freqtrade @ git+https://github.com/freqtrade/freqtrade.git@1f394eaebc2f46a83d26971388628707802f8602

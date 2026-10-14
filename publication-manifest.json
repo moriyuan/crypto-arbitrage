@@ -1,0 +1,2376 @@
+{
+  "publication_date": "2026-10-14",
+  "scope": "Bybit/Bitget cross-exchange arbitrage only; standalone private repository without BTC CTA code/history",
+  "real_execution_enabled": false,
+  "files": [
+    {
+      "path": "src/btc_cta/cross_arb/__init__.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/__init__.py",
+      "original_sha256": "49a62bd563d94173a7be6b8443b19892019b8271bfd7263413b6c2b1e8e9c30a",
+      "published_sha256": "49a62bd563d94173a7be6b8443b19892019b8271bfd7263413b6c2b1e8e9c30a",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/__main__.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/__main__.py",
+      "original_sha256": "7c35999dda1bf1514c5159cc1c6d5ac095874faaeb0bff554e1b51b74bf32749",
+      "published_sha256": "7c35999dda1bf1514c5159cc1c6d5ac095874faaeb0bff554e1b51b74bf32749",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/capture.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/capture.py",
+      "original_sha256": "c8ba5a9ea30d94fc9f67ca7c1bed9f2c9d2f34b83a4e93275c37fe206d920ad1",
+      "published_sha256": "c8ba5a9ea30d94fc9f67ca7c1bed9f2c9d2f34b83a4e93275c37fe206d920ad1",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/depth_sizing.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/depth_sizing.py",
+      "original_sha256": "d25fe761353466176f7856fd471ab1c59d4450c296201d006337ba901a673631",
+      "published_sha256": "d25fe761353466176f7856fd471ab1c59d4450c296201d006337ba901a673631",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/engine.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/engine.py",
+      "original_sha256": "eb559cadfbeca16fd3c8a052615572a9b20702690516aa8fb16e065bfcdf2cb5",
+      "published_sha256": "eb559cadfbeca16fd3c8a052615572a9b20702690516aa8fb16e065bfcdf2cb5",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/entry_filters.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/entry_filters.py",
+      "original_sha256": "66929d9b4b8886326449ab7a61a714b858910eb48622fc49ca7f743b593adaed",
+      "published_sha256": "66929d9b4b8886326449ab7a61a714b858910eb48622fc49ca7f743b593adaed",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/forecast.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/forecast.py",
+      "original_sha256": "15bc469b5e340a316ca00ff25ce02663aa35cae2f35ba21a501f9aec370401a2",
+      "published_sha256": "15bc469b5e340a316ca00ff25ce02663aa35cae2f35ba21a501f9aec370401a2",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/freqtrade.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/freqtrade.py",
+      "original_sha256": "71642e0c2d59205838560722db3d917b95a1a0bfac1ba1a90d3fa3beccdbac22",
+      "published_sha256": "71642e0c2d59205838560722db3d917b95a1a0bfac1ba1a90d3fa3beccdbac22",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/funding.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/funding.py",
+      "original_sha256": "011b8c25ce2159ead864ddb3ae0580e142f2e05263022e41727f74c4a4f11fd8",
+      "published_sha256": "011b8c25ce2159ead864ddb3ae0580e142f2e05263022e41727f74c4a4f11fd8",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/history_gate.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/history_gate.py",
+      "original_sha256": "dd74d45619b2b5c2196935bfb7c9a37f75031f8f642a0b1b69493409848164e2",
+      "published_sha256": "dd74d45619b2b5c2196935bfb7c9a37f75031f8f642a0b1b69493409848164e2",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/live.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/live.py",
+      "original_sha256": "4a9881ad1bd16cfed81107fdff65735f3e905c0ad39e877cde1de64cb51c7e3a",
+      "published_sha256": "4a9881ad1bd16cfed81107fdff65735f3e905c0ad39e877cde1de64cb51c7e3a",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/market.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/market.py",
+      "original_sha256": "cd273b4a4eabad8c8a3583d2352d763083c366247a7cc2fb670c4420b3155cef",
+      "published_sha256": "cd273b4a4eabad8c8a3583d2352d763083c366247a7cc2fb670c4420b3155cef",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/nowcast.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/nowcast.py",
+      "original_sha256": "5c8e461636bdb76473562de54e4877fd8ab0117bfe2b11b43b4e74b90782069f",
+      "published_sha256": "5c8e461636bdb76473562de54e4877fd8ab0117bfe2b11b43b4e74b90782069f",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/paper.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/paper.py",
+      "original_sha256": "46f1648ed547b403cf83e7792cc81b6b238ff25f7f1f1933a58fa0b39bd582b4",
+      "published_sha256": "46f1648ed547b403cf83e7792cc81b6b238ff25f7f1f1933a58fa0b39bd582b4",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/replay.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/replay.py",
+      "original_sha256": "be633390ffcf4c7703be3c17494b3512dba05dccdc4066a5eaaa4c7c1f141654",
+      "published_sha256": "be633390ffcf4c7703be3c17494b3512dba05dccdc4066a5eaaa4c7c1f141654",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/stream.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/stream.py",
+      "original_sha256": "c5f85a153952f6fe23afbec9b9541ea0c881d0f836a6b9a0d199375fdd7e8af9",
+      "published_sha256": "c5f85a153952f6fe23afbec9b9541ea0c881d0f836a6b9a0d199375fdd7e8af9",
+      "adapted": false
+    },
+    {
+      "path": "src/btc_cta/cross_arb/sweep.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "src/btc_cta/cross_arb/sweep.py",
+      "original_sha256": "acf7b80a5fe97fdf20060b2fa1d51ed22534843d8d12e4af429412a6f14f7070",
+      "published_sha256": "acf7b80a5fe97fdf20060b2fa1d51ed22534843d8d12e4af429412a6f14f7070",
+      "adapted": false
+    },
+    {
+      "path": "deploy/freqtrade-arb/bitget.json",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "deploy/freqtrade-arb/bitget.json",
+      "original_sha256": "33c6f4c9d99ab273770a5a5a69e36f7974dd637a372e145b81bd55e72a98e4c3",
+      "published_sha256": "33c6f4c9d99ab273770a5a5a69e36f7974dd637a372e145b81bd55e72a98e4c3",
+      "adapted": false
+    },
+    {
+      "path": "deploy/freqtrade-arb/bybit.json",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "deploy/freqtrade-arb/bybit.json",
+      "original_sha256": "29877eb1b652766e9b1405ce5dd6e5b8167c2db00088230ce0900cc261261f2f",
+      "published_sha256": "29877eb1b652766e9b1405ce5dd6e5b8167c2db00088230ce0900cc261261f2f",
+      "adapted": false
+    },
+    {
+      "path": "deploy/freqtrade-arb/requirements-macos-arm64.lock",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "deploy/freqtrade-arb/requirements-macos-arm64.lock",
+      "original_sha256": "f2ca4640ba2e7774017c1f2aff7d0991e6f9a1acf7cba3f31711c86caed2662f",
+      "published_sha256": "f2ca4640ba2e7774017c1f2aff7d0991e6f9a1acf7cba3f31711c86caed2662f",
+      "adapted": false
+    },
+    {
+      "path": "deploy/freqtrade-arb/requirements.txt",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "deploy/freqtrade-arb/requirements.txt",
+      "original_sha256": "f30109285a182cee9c28cef287b4cb52d69ce675b40aeabd6e150d4b0088f6ff",
+      "published_sha256": "f30109285a182cee9c28cef287b4cb52d69ce675b40aeabd6e150d4b0088f6ff",
+      "adapted": false
+    },
+    {
+      "path": "deploy/freqtrade-arb/runtime.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "deploy/freqtrade-arb/runtime.py",
+      "original_sha256": "9f4fcc3f9e6299e784701473655a39d47305989d8ad48c87b0081031d2ef9cce",
+      "published_sha256": "9f4fcc3f9e6299e784701473655a39d47305989d8ad48c87b0081031d2ef9cce",
+      "adapted": false
+    },
+    {
+      "path": "deploy/freqtrade-arb/strategies/CrossExchangeArb.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "deploy/freqtrade-arb/strategies/CrossExchangeArb.py",
+      "original_sha256": "4cd6fee57efd664b45270ea50fdd1b2e69d86bec80d724e64106e233fd7b7b85",
+      "published_sha256": "4cd6fee57efd664b45270ea50fdd1b2e69d86bec80d724e64106e233fd7b7b85",
+      "adapted": false
+    },
+    {
+      "path": "docs/research/cross-exchange-perpetual-spread.md",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "docs/research/cross-exchange-perpetual-spread.md",
+      "original_sha256": "71670e401d829e59dba74ad695ea79448c66a376d81e4bd9ab18b68286564cf4",
+      "published_sha256": "e7111b740764ce6037935858f1e0b34a17818b8133f5c7bdaf9b136e729be38d",
+      "adapted": true
+    },
+    {
+      "path": "docs/research/crypto-arbitrage.md",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "docs/research/crypto-arbitrage.md",
+      "original_sha256": "bc1633dcc5d04b35248a665a8326464dd5e845d7feb7a5c366f06bf39dde11ca",
+      "published_sha256": "fce71cdf7f5435b27799a2e46fa8040ec9b3470356ab70f103d62bf2cee618d5",
+      "adapted": true
+    },
+    {
+      "path": "docs/research/evidence/2026-10-08-freqtrade-dryrun-smoke.json",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "docs/research/evidence/2026-10-08-freqtrade-dryrun-smoke.json",
+      "original_sha256": "0a6bd77805fea8efe92585a20f93f95d2bd8286943795c606f8efbf5bad46739",
+      "published_sha256": "0a6bd77805fea8efe92585a20f93f95d2bd8286943795c606f8efbf5bad46739",
+      "adapted": false
+    },
+    {
+      "path": "docs/research/evidence/2026-10-08-public-instruments.json",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "docs/research/evidence/2026-10-08-public-instruments.json",
+      "original_sha256": "25bf9bd1ad81f38a256be57469068d42dfc4f048688f4f247da3f903d6eee5d3",
+      "published_sha256": "25bf9bd1ad81f38a256be57469068d42dfc4f048688f4f247da3f903d6eee5d3",
+      "adapted": false
+    },
+    {
+      "path": "docs/research/freqtrade-bybit-bitget.md",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "docs/research/freqtrade-bybit-bitget.md",
+      "original_sha256": "c00d7c0b9d893e6a7f3b7096a749b02e4b6aaa94f243e33c8a25f958b600bbb2",
+      "published_sha256": "d420775287905ce671c386c6888f155a3ea4099aa14c44a8f1b89f8a19c67fd8",
+      "adapted": true
+    },
+    {
+      "path": "tests/test_cross_arb_capture.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_capture.py",
+      "original_sha256": "16804b7bfa071bc9cf70b79c4f09e7e0dab58851dc86102696d2c248e223f393",
+      "published_sha256": "16804b7bfa071bc9cf70b79c4f09e7e0dab58851dc86102696d2c248e223f393",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_cli.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_cli.py",
+      "original_sha256": "28a731bcae89dcb825d79585c752368a9a2ac24a07d75fd1bade10a418732849",
+      "published_sha256": "28a731bcae89dcb825d79585c752368a9a2ac24a07d75fd1bade10a418732849",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_depth_sizing.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_depth_sizing.py",
+      "original_sha256": "95dc6fd19eaa5f3525a6aad46955a83f334e9502430bfcfded1e23f3978cdbbc",
+      "published_sha256": "95dc6fd19eaa5f3525a6aad46955a83f334e9502430bfcfded1e23f3978cdbbc",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_dynamic_replay.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_dynamic_replay.py",
+      "original_sha256": "4e006aacc55a6397c48eb24fdffebdff0281f77a494eefab7236eb213bf0bfd8",
+      "published_sha256": "4e006aacc55a6397c48eb24fdffebdff0281f77a494eefab7236eb213bf0bfd8",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_engine.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_engine.py",
+      "original_sha256": "b50c50cd95c6c8cf819390ad3136255228df6b55b6fdb1aaa113a83126a3bba9",
+      "published_sha256": "b50c50cd95c6c8cf819390ad3136255228df6b55b6fdb1aaa113a83126a3bba9",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_entry_filters.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_entry_filters.py",
+      "original_sha256": "8e4a46478114809bb212ff2efca897a140ea4d549fbc43abc9d669948b6f45a0",
+      "published_sha256": "8e4a46478114809bb212ff2efca897a140ea4d549fbc43abc9d669948b6f45a0",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_fee.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_fee.py",
+      "original_sha256": "d6692376b7188df5f198945f61c8db7d012ad43d6054d8ee6c7e366d9c7a229d",
+      "published_sha256": "d6692376b7188df5f198945f61c8db7d012ad43d6054d8ee6c7e366d9c7a229d",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_filter_integration.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_filter_integration.py",
+      "original_sha256": "02c5897cb3ae2fa09963df791f487763050213d0aa0b2ee83cd4174e526b5ea0",
+      "published_sha256": "02c5897cb3ae2fa09963df791f487763050213d0aa0b2ee83cd4174e526b5ea0",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_forecast.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_forecast.py",
+      "original_sha256": "27a00cba38bb770804cb763108846ea39271eb9a6ecc8b4f67f8bd769e1d20c5",
+      "published_sha256": "27a00cba38bb770804cb763108846ea39271eb9a6ecc8b4f67f8bd769e1d20c5",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_freqtrade.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_freqtrade.py",
+      "original_sha256": "0c73987736b6446daa05250619580837ed1d3f4a8ab2da810a3fab50887967b1",
+      "published_sha256": "0c73987736b6446daa05250619580837ed1d3f4a8ab2da810a3fab50887967b1",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_funding.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_funding.py",
+      "original_sha256": "a136b314dd392d6e09ec4cb46d1cb35f25718a7cc1065043bc2755d6b27fd86a",
+      "published_sha256": "a136b314dd392d6e09ec4cb46d1cb35f25718a7cc1065043bc2755d6b27fd86a",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_history_gate.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_history_gate.py",
+      "original_sha256": "79ed6e3e4676f2d32e147b1c28d9ba3e64a64f6fc7c5c7ed81bbe07515b4e013",
+      "published_sha256": "79ed6e3e4676f2d32e147b1c28d9ba3e64a64f6fc7c5c7ed81bbe07515b4e013",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_history_paper.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_history_paper.py",
+      "original_sha256": "ba28ce1d2eed3288787ea3e5a1d89637ba2e542c6816b9b84883e35f76d54228",
+      "published_sha256": "ba28ce1d2eed3288787ea3e5a1d89637ba2e542c6816b9b84883e35f76d54228",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_live.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_live.py",
+      "original_sha256": "0b99691d3dc7f6a5b91bb47647fc098084e2167b3e62f78539cad00e35b47ceb",
+      "published_sha256": "0b99691d3dc7f6a5b91bb47647fc098084e2167b3e62f78539cad00e35b47ceb",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_market.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_market.py",
+      "original_sha256": "83889f4531215576ee17ffdff20ce36be023b71a1796b81d7aaad39cc0dcdf42",
+      "published_sha256": "83889f4531215576ee17ffdff20ce36be023b71a1796b81d7aaad39cc0dcdf42",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_nowcast.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_nowcast.py",
+      "original_sha256": "57bbd6bf4355e0f0f797a9240fa4836930731cd6bd86c95ddffc08f9c29226dc",
+      "published_sha256": "57bbd6bf4355e0f0f797a9240fa4836930731cd6bd86c95ddffc08f9c29226dc",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_paper.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_paper.py",
+      "original_sha256": "1bd86ca04fdcf81648b71d91adca5711dceb70242ab69aa24a0135be6ca28a83",
+      "published_sha256": "1bd86ca04fdcf81648b71d91adca5711dceb70242ab69aa24a0135be6ca28a83",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_replay.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_replay.py",
+      "original_sha256": "77a392fea53a0985a4aeb3d709f720c3cc50f6b5ae1aa751124c56edca6fbc13",
+      "published_sha256": "77a392fea53a0985a4aeb3d709f720c3cc50f6b5ae1aa751124c56edca6fbc13",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_stream.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_stream.py",
+      "original_sha256": "798e02a83047c6eb8a4e0f2ff0d8c377ed2a5b29b2af67fca4f18dcbdc8c7a9a",
+      "published_sha256": "798e02a83047c6eb8a4e0f2ff0d8c377ed2a5b29b2af67fca4f18dcbdc8c7a9a",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_cross_arb_sweep.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_cross_arb_sweep.py",
+      "original_sha256": "50d14a142d107f1e803db49eda2298db9cef7055ebf0f8b26b00739dcf5d4bfd",
+      "published_sha256": "50d14a142d107f1e803db49eda2298db9cef7055ebf0f8b26b00739dcf5d4bfd",
+      "adapted": false
+    },
+    {
+      "path": "tests/test_freqtrade_arb_runtime.py",
+      "source_scope": "arbitrage_worktree",
+      "source_relative_path": "tests/test_freqtrade_arb_runtime.py",
+      "original_sha256": "42fdcd6bcbd33e36cf5fd5cca023f3f297d503ce8b610bca8cfa397181c8d7ab",
+      "published_sha256": "42fdcd6bcbd33e36cf5fd5cca023f3f297d503ce8b610bca8cfa397181c8d7ab",
+      "adapted": false
+    },
+    {
+      "path": "docs/arbitrage-research.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "docs/arbitrage-research.md",
+      "original_sha256": "24f190c1e4e3d619e743d024f8cab040e9e3a246325c2b01ab8ab20037637f2e",
+      "published_sha256": "f1ec8fe3118a7c0df62487559081f8c00c0e4e4eccd49d0e626ed2adff661b2f",
+      "adapted": true
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-l1-replay-code/README.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-l1-replay-code/README.md",
+      "original_sha256": "3fa46cdca996e6ccf1be9074a6417115821ac2ac8a8b657f916a123e2e56c8e8",
+      "published_sha256": "3fa46cdca996e6ccf1be9074a6417115821ac2ac8a8b657f916a123e2e56c8e8",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-l1-replay-code/audit_accounting.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-l1-replay-code/audit_accounting.py",
+      "original_sha256": "784bef3e680ccc497b1d084a33dee4daa893d887070f26d5349120876964819e",
+      "published_sha256": "784bef3e680ccc497b1d084a33dee4daa893d887070f26d5349120876964819e",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-l1-replay-code/depth_fill_audit.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-l1-replay-code/depth_fill_audit.py",
+      "original_sha256": "30352a28f3d2e599cdcfbeb1cbc6cfd843842d69860546b0729cc2daf9c98d13",
+      "published_sha256": "30352a28f3d2e599cdcfbeb1cbc6cfd843842d69860546b0729cc2daf9c98d13",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-l1-replay-code/make_report.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-l1-replay-code/make_report.py",
+      "original_sha256": "c68a3d286f74ed32c3c07aac484a030e2aa68b20398be1eb3751eeb2335e4580",
+      "published_sha256": "c68a3d286f74ed32c3c07aac484a030e2aa68b20398be1eb3751eeb2335e4580",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-l1-replay-code/runner.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-l1-replay-code/runner.py",
+      "original_sha256": "cfa3dc284981397e3bbf5f211ea612261fa03ad229dc93c7b0a2da8cea329211",
+      "published_sha256": "cfa3dc284981397e3bbf5f211ea612261fa03ad229dc93c7b0a2da8cea329211",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-l1-replay-code/tardis_adapter.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-l1-replay-code/tardis_adapter.py",
+      "original_sha256": "5c1867f7c4d16e1df81b552e9fb176c84508ef8222ee888ade6b063cc399af17",
+      "published_sha256": "5c1867f7c4d16e1df81b552e9fb176c84508ef8222ee888ade6b063cc399af17",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-l1-replay-code/test_audit_accounting.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-l1-replay-code/test_audit_accounting.py",
+      "original_sha256": "58dd1e6862a5e523cc3153fb3b1a8afe965fa40168f1a9d20934a33a88bca124",
+      "published_sha256": "58dd1e6862a5e523cc3153fb3b1a8afe965fa40168f1a9d20934a33a88bca124",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-l1-replay-code/test_first_level.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-l1-replay-code/test_first_level.py",
+      "original_sha256": "39d73819da421dc1eca4d66a84eccfd736ce689fbc03391f218860cc40c63f96",
+      "published_sha256": "39d73819da421dc1eca4d66a84eccfd736ce689fbc03391f218860cc40c63f96",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-l1-replay-code/test_runner.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-l1-replay-code/test_runner.py",
+      "original_sha256": "5c126ad372b8ba9a664d831eb300a82eca8fac0581018dc8b4f70f8699c7be5c",
+      "published_sha256": "5c126ad372b8ba9a664d831eb300a82eca8fac0581018dc8b4f70f8699c7be5c",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-l1-replay-code/test_tardis_adapter.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-l1-replay-code/test_tardis_adapter.py",
+      "original_sha256": "6fbe78ca4be603609abc23279199d94810dcffd88618357f420fffe52dc76b9b",
+      "published_sha256": "6fbe78ca4be603609abc23279199d94810dcffd88618357f420fffe52dc76b9b",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-l1-replay-code/wait_for_accounting.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-l1-replay-code/wait_for_accounting.py",
+      "original_sha256": "21a1cb73c0721155271d01272e0b99053872dbde9e6e21bcc27e8a76981e87cc",
+      "published_sha256": "21a1cb73c0721155271d01272e0b99053872dbde9e6e21bcc27e8a76981e87cc",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-replay-audit-code/audit_replay.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-replay-audit-code/audit_replay.py",
+      "original_sha256": "cfd27e234850fbeafa47cf73c9914de612811f839f239adde7c25b392ed4b028",
+      "published_sha256": "cfd27e234850fbeafa47cf73c9914de612811f839f239adde7c25b392ed4b028",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-replay-audit-code/wait_and_audit.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-replay-audit-code/wait_and_audit.py",
+      "original_sha256": "d1d6917682a33955048fa9efb47012077f24a66ff8576865b54183a7b21f9089",
+      "published_sha256": "d1d6917682a33955048fa9efb47012077f24a66ff8576865b54183a7b21f9089",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-tardis-replay-code/README.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-tardis-replay-code/README.md",
+      "original_sha256": "b08dc383f97a90a64ccd64555d1e55e367fa88ed4b2bc84c7b5fa1ec9c6f2cb6",
+      "published_sha256": "b08dc383f97a90a64ccd64555d1e55e367fa88ed4b2bc84c7b5fa1ec9c6f2cb6",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-tardis-replay-code/depth_fill_audit.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-tardis-replay-code/depth_fill_audit.py",
+      "original_sha256": "ee49208dfe3c2a038c1488167aa9b194d1701d076422e85f1b8cc16753a61e5d",
+      "published_sha256": "ee49208dfe3c2a038c1488167aa9b194d1701d076422e85f1b8cc16753a61e5d",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-tardis-replay-code/make_report.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-tardis-replay-code/make_report.py",
+      "original_sha256": "2942a6274db23c2135faacc9e270fb42dc1fce7d321ef59f94dcc61ca4929704",
+      "published_sha256": "2942a6274db23c2135faacc9e270fb42dc1fce7d321ef59f94dcc61ca4929704",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-tardis-replay-code/runner.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-tardis-replay-code/runner.py",
+      "original_sha256": "da882143814738380ef756d2ea78ef2d456d35d84ce8a8806e5866e9cf30264a",
+      "published_sha256": "da882143814738380ef756d2ea78ef2d456d35d84ce8a8806e5866e9cf30264a",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-tardis-replay-code/tardis_adapter.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-tardis-replay-code/tardis_adapter.py",
+      "original_sha256": "5c1867f7c4d16e1df81b552e9fb176c84508ef8222ee888ade6b063cc399af17",
+      "published_sha256": "5c1867f7c4d16e1df81b552e9fb176c84508ef8222ee888ade6b063cc399af17",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-tardis-replay-code/test_runner.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-tardis-replay-code/test_runner.py",
+      "original_sha256": "5c126ad372b8ba9a664d831eb300a82eca8fac0581018dc8b4f70f8699c7be5c",
+      "published_sha256": "5c126ad372b8ba9a664d831eb300a82eca8fac0581018dc8b4f70f8699c7be5c",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-tardis-replay-code/test_tardis_adapter.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-tardis-replay-code/test_tardis_adapter.py",
+      "original_sha256": "6fbe78ca4be603609abc23279199d94810dcffd88618357f420fffe52dc76b9b",
+      "published_sha256": "6fbe78ca4be603609abc23279199d94810dcffd88618357f420fffe52dc76b9b",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-activity-maker-code/README.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-activity-maker-code/README.md",
+      "original_sha256": "c0378491ef821831433a60a26ed4232969f777f18a1c50734c44e89a1f479626",
+      "published_sha256": "c0378491ef821831433a60a26ed4232969f777f18a1c50734c44e89a1f479626",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-activity-maker-code/activity_features.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-activity-maker-code/activity_features.py",
+      "original_sha256": "b38daeb9e110d4c145a6fa94393fc7b96acafe258a722c7a6d3b4477a377b168",
+      "published_sha256": "b38daeb9e110d4c145a6fa94393fc7b96acafe258a722c7a6d3b4477a377b168",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-activity-maker-code/activity_replay.cpp",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-activity-maker-code/activity_replay.cpp",
+      "original_sha256": "56e842d634965f2e9a88eec970febc2e1f7b1df8a8515efb3afb132268969a81",
+      "published_sha256": "56e842d634965f2e9a88eec970febc2e1f7b1df8a8515efb3afb132268969a81",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-activity-maker-code/audit_taker.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-activity-maker-code/audit_taker.py",
+      "original_sha256": "cb7cb2c6d3adc56faf31422ea6070fe21d491552b55096eaa7164bfd58074e1a",
+      "published_sha256": "cb7cb2c6d3adc56faf31422ea6070fe21d491552b55096eaa7164bfd58074e1a",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-activity-maker-code/calibrate.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-activity-maker-code/calibrate.py",
+      "original_sha256": "f4adf8551be5a335d1995d9e3d7f218ed3f7e7344c425eb7fe0b2d0aa1a87e86",
+      "published_sha256": "f4adf8551be5a335d1995d9e3d7f218ed3f7e7344c425eb7fe0b2d0aa1a87e86",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-activity-maker-code/maker_engine.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-activity-maker-code/maker_engine.py",
+      "original_sha256": "3bb67c19de4c1821e471758b82dd878e37d9a8b82df0dc66abf786954d2116fc",
+      "published_sha256": "3bb67c19de4c1821e471758b82dd878e37d9a8b82df0dc66abf786954d2116fc",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-activity-maker-code/maker_offset_engine.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-activity-maker-code/maker_offset_engine.py",
+      "original_sha256": "72b12abf6b9178fe01aa906ed443dda8b482ebfbfa9bf774b58ea70799299cb3",
+      "published_sha256": "72b12abf6b9178fe01aa906ed443dda8b482ebfbfa9bf774b58ea70799299cb3",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-activity-maker-code/report_maker.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-activity-maker-code/report_maker.py",
+      "original_sha256": "da87051535201784b0db14eae3159bce2691a614118ff1578cd9ab187052e3a4",
+      "published_sha256": "da87051535201784b0db14eae3159bce2691a614118ff1578cd9ab187052e3a4",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-activity-maker-code/select_activity.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-activity-maker-code/select_activity.py",
+      "original_sha256": "9a0535aeee27b8a30824a9e05566bf0ac54f79411a92fcb22cea02caafda52fb",
+      "published_sha256": "9a0535aeee27b8a30824a9e05566bf0ac54f79411a92fcb22cea02caafda52fb",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-activity-maker-code/test_activity_features.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-activity-maker-code/test_activity_features.py",
+      "original_sha256": "51b25813046acc8b19b98f760c34698bf3f7a82691032137571f52a886db2555",
+      "published_sha256": "51b25813046acc8b19b98f760c34698bf3f7a82691032137571f52a886db2555",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-activity-maker-code/test_activity_replay.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-activity-maker-code/test_activity_replay.py",
+      "original_sha256": "0d595ad62f159b26a35bf967029585c5e92dcee89c16974bf7ebdd8aa3212820",
+      "published_sha256": "0d595ad62f159b26a35bf967029585c5e92dcee89c16974bf7ebdd8aa3212820",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-activity-maker-code/test_maker_engine.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-activity-maker-code/test_maker_engine.py",
+      "original_sha256": "03fc7497f652262835ef9daed41ed6f79ef957af7914b011265a8734d7c8fe5d",
+      "published_sha256": "03fc7497f652262835ef9daed41ed6f79ef957af7914b011265a8734d7c8fe5d",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-activity-maker-code/test_maker_offset_engine.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-activity-maker-code/test_maker_offset_engine.py",
+      "original_sha256": "394d437ba0eccf8263cd2cd68700c0f5efbc6e4cc761181894c5cf5bcc5d908c",
+      "published_sha256": "394d437ba0eccf8263cd2cd68700c0f5efbc6e4cc761181894c5cf5bcc5d908c",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/README.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/README.md",
+      "original_sha256": "f6fb8814a7f025c5ea9fbd29c61a044537075296414453ebf9583202fdc6e7bd",
+      "published_sha256": "f6fb8814a7f025c5ea9fbd29c61a044537075296414453ebf9583202fdc6e7bd",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/activity_day_features.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/activity_day_features.py",
+      "original_sha256": "1485922728cb59446496b2e65685a7aeee7fef20d839cf6ab798362f0d248f2c",
+      "published_sha256": "1485922728cb59446496b2e65685a7aeee7fef20d839cf6ab798362f0d248f2c",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/as_calibrate.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/as_calibrate.py",
+      "original_sha256": "f59595d6c9c0d8e0e67b50df8c9973ff3a02752928850951140b717d5e1309ae",
+      "published_sha256": "f59595d6c9c0d8e0e67b50df8c9973ff3a02752928850951140b717d5e1309ae",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/as_quote.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/as_quote.py",
+      "original_sha256": "d3f9cd645949fcfc56bbf5e8c7ded9ea1d649a4717147df57a66d1a81a62f4e1",
+      "published_sha256": "d3f9cd645949fcfc56bbf5e8c7ded9ea1d649a4717147df57a66d1a81a62f4e1",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/as_replay.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/as_replay.py",
+      "original_sha256": "e3b300824225cf47996ae047b1eeca69574e948217a8edbb8da6fab8581a710c",
+      "published_sha256": "e3b300824225cf47996ae047b1eeca69574e948217a8edbb8da6fab8581a710c",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/audit_as_calibration.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/audit_as_calibration.py",
+      "original_sha256": "9d21c34132626d7ba07e1f8fb85bf3548135ce62ff24eada0f9f8fa7d1f74bd2",
+      "published_sha256": "9d21c34132626d7ba07e1f8fb85bf3548135ce62ff24eada0f9f8fa7d1f74bd2",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/audit_as_comparison_metrics.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/audit_as_comparison_metrics.py",
+      "original_sha256": "1b9ed45e5af92dbe2b1956e778912e0bc77c367adb6804090a4c971166e8a266",
+      "published_sha256": "1b9ed45e5af92dbe2b1956e778912e0bc77c367adb6804090a4c971166e8a266",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/audit_as_replay.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/audit_as_replay.py",
+      "original_sha256": "b91a489150b2134f0ed72f8168f765fee6abd9026561b3606291f0cb2df18526",
+      "published_sha256": "b91a489150b2134f0ed72f8168f765fee6abd9026561b3606291f0cb2df18526",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/audit_cohort_accounting.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/audit_cohort_accounting.py",
+      "original_sha256": "d4efbb7dbbf9ed3e5ccac18878a86a9598359c618d1ba56ff2ec3b67cbe4b472",
+      "published_sha256": "d4efbb7dbbf9ed3e5ccac18878a86a9598359c618d1ba56ff2ec3b67cbe4b472",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/audit_day_activity.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/audit_day_activity.py",
+      "original_sha256": "6e268006fd0476380e41c36f80c57e5dc2df5dcef44797bfcbc5e3e8d2604bbc",
+      "published_sha256": "6e268006fd0476380e41c36f80c57e5dc2df5dcef44797bfcbc5e3e8d2604bbc",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/audit_day_inputs.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/audit_day_inputs.py",
+      "original_sha256": "79f55aa0f1dc3626e1aa00e16d0ab23a6712c07184b8b11d2fe3f5e3577bf0ef",
+      "published_sha256": "79f55aa0f1dc3626e1aa00e16d0ab23a6712c07184b8b11d2fe3f5e3577bf0ef",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/audit_price_precision.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/audit_price_precision.py",
+      "original_sha256": "91aa79e8757a0662dd8edb727b09f67efdb52391fb61d27342880b43d344e3e1",
+      "published_sha256": "91aa79e8757a0662dd8edb727b09f67efdb52391fb61d27342880b43d344e3e1",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/audit_price_precision_limited.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/audit_price_precision_limited.py",
+      "original_sha256": "f606457c1782137818064c6313b6e164d4bef957688d189d28934d942c7e978d",
+      "published_sha256": "f606457c1782137818064c6313b6e164d4bef957688d189d28934d942c7e978d",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/audit_public_day.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/audit_public_day.py",
+      "original_sha256": "f0af6c83ff0d1dcd6b2596bbfb3085ccb7ccb98a83b9e40b54089cd13af8446a",
+      "published_sha256": "f0af6c83ff0d1dcd6b2596bbfb3085ccb7ccb98a83b9e40b54089cd13af8446a",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/audit_startup_continuity.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/audit_startup_continuity.py",
+      "original_sha256": "a26dab30db5c90dc41fbb2b62fdac4e81e515918450d46c12c26ec5191312ac8",
+      "published_sha256": "a26dab30db5c90dc41fbb2b62fdac4e81e515918450d46c12c26ec5191312ac8",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/build_day_tape.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/build_day_tape.py",
+      "original_sha256": "685854dba1523474d4905a42d65d8e00d68109eefdd68a101090c4c8c274b095",
+      "published_sha256": "685854dba1523474d4905a42d65d8e00d68109eefdd68a101090c4c8c274b095",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/calibrate_day_activity.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/calibrate_day_activity.py",
+      "original_sha256": "53a7d20955a2bd8e5634cebe83d0d62a86866371d93c7eea65349ad16059cac0",
+      "published_sha256": "53a7d20955a2bd8e5634cebe83d0d62a86866371d93c7eea65349ad16059cac0",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/cohort_replay.cpp",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/cohort_replay.cpp",
+      "original_sha256": "30117b2c430c14c933d9ad66b443c9cd3425d55b05df929ddaf79b2a3699bee3",
+      "published_sha256": "30117b2c430c14c933d9ad66b443c9cd3425d55b05df929ddaf79b2a3699bee3",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/collect_and_audit_days.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/collect_and_audit_days.py",
+      "original_sha256": "4750175162bf91449163ad7197c4479aaec07d000b33bb48f6a15dd9eb2ff428",
+      "published_sha256": "4750175162bf91449163ad7197c4479aaec07d000b33bb48f6a15dd9eb2ff428",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/day_adapter.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/day_adapter.py",
+      "original_sha256": "5cfc968b0b91487748a7024a56b1d863f5eb96b2f5f843d8d2fb7bc759da8071",
+      "published_sha256": "5cfc968b0b91487748a7024a56b1d863f5eb96b2f5f843d8d2fb7bc759da8071",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/day_funding.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/day_funding.py",
+      "original_sha256": "23911b380d964b882bbde4555369fafe629bad29c356e210b05008ff72f2a38e",
+      "published_sha256": "23911b380d964b882bbde4555369fafe629bad29c356e210b05008ff72f2a38e",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/day_history.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/day_history.py",
+      "original_sha256": "b8a75380540c62887f6cdd0b242ce29007bc89f7a839267c9e80ab5a588182cb",
+      "published_sha256": "b8a75380540c62887f6cdd0b242ce29007bc89f7a839267c9e80ab5a588182cb",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/day_inputs.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/day_inputs.py",
+      "original_sha256": "a468ef50b7e77673988d53d03d277e440e0cc870f614717c52826e8b2fbba292",
+      "published_sha256": "a468ef50b7e77673988d53d03d277e440e0cc870f614717c52826e8b2fbba292",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/download_public_days.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/download_public_days.py",
+      "original_sha256": "125e3caf2e29a68ecd7e43855c5dfd34df33cafa104a43c0fe4ba75af77c0cfa",
+      "published_sha256": "125e3caf2e29a68ecd7e43855c5dfd34df33cafa104a43c0fe4ba75af77c0cfa",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/execution_adapter.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/execution_adapter.py",
+      "original_sha256": "79f1c8e1f0be026b13d0b271f8796a9375523cc9510e52f3f11273120837a3de",
+      "published_sha256": "79f1c8e1f0be026b13d0b271f8796a9375523cc9510e52f3f11273120837a3de",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/resume_day_history.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/resume_day_history.py",
+      "original_sha256": "1ef09264a2c605369a40003bf28b74601c70b005a5fb613dcc32804624eeb14c",
+      "published_sha256": "1ef09264a2c605369a40003bf28b74601c70b005a5fb613dcc32804624eeb14c",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/rolling_sigma.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/rolling_sigma.py",
+      "original_sha256": "b1493517f566bfbd887908a0ed89bd3adb86ca7b91f5cef2f31b6f39d8f93822",
+      "published_sha256": "b1493517f566bfbd887908a0ed89bd3adb86ca7b91f5cef2f31b6f39d8f93822",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/summarize_as_comparison.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/summarize_as_comparison.py",
+      "original_sha256": "eb9c0fd045b0a85d69c8c6c8992c0e123d1c37c866c9a084c5d21b1bcb6a60c6",
+      "published_sha256": "eb9c0fd045b0a85d69c8c6c8992c0e123d1c37c866c9a084c5d21b1bcb6a60c6",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/summarize_public_days.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/summarize_public_days.py",
+      "original_sha256": "c3e4061c2663c0f5b291ae043e54c06a0a92f68fe32348a3e02c27f4e8af4480",
+      "published_sha256": "c3e4061c2663c0f5b291ae043e54c06a0a92f68fe32348a3e02c27f4e8af4480",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/test_as_calibrate.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/test_as_calibrate.py",
+      "original_sha256": "cb115a9b5ca467802917f42b93ae0f7b0734b10938bbe74ac7c48bc2ad47600b",
+      "published_sha256": "cb115a9b5ca467802917f42b93ae0f7b0734b10938bbe74ac7c48bc2ad47600b",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/test_as_quote.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/test_as_quote.py",
+      "original_sha256": "a486876bd0cacebe5417e71201dd73978ca29a391dc8ffeb80f4da5cc0de0296",
+      "published_sha256": "a486876bd0cacebe5417e71201dd73978ca29a391dc8ffeb80f4da5cc0de0296",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/test_as_replay.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/test_as_replay.py",
+      "original_sha256": "af2a459903d32edc1e946c475f752d223dcfdb5b9b2b2ecfb526af51d134661d",
+      "published_sha256": "af2a459903d32edc1e946c475f752d223dcfdb5b9b2b2ecfb526af51d134661d",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/test_audit_day_activity.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/test_audit_day_activity.py",
+      "original_sha256": "d7c80b30ba33fec1d612ce84947b03cd9b66490b0cea39fe427947a3aa9b595a",
+      "published_sha256": "d7c80b30ba33fec1d612ce84947b03cd9b66490b0cea39fe427947a3aa9b595a",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/test_cohort_replay.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/test_cohort_replay.py",
+      "original_sha256": "deda300559253bd399c01e716a239902ee140e1947bb68dc4750038a8d744719",
+      "published_sha256": "deda300559253bd399c01e716a239902ee140e1947bb68dc4750038a8d744719",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/test_day_adapter.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/test_day_adapter.py",
+      "original_sha256": "0063efd5ab4bb179123033e2d8d51e90e08e93da2f3403584489f57b9073b121",
+      "published_sha256": "0063efd5ab4bb179123033e2d8d51e90e08e93da2f3403584489f57b9073b121",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/test_day_funding.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/test_day_funding.py",
+      "original_sha256": "edacc16ed0a856e96c41a8e46f8ee7e94d0f58647c424b50eec131ed1ee8b908",
+      "published_sha256": "edacc16ed0a856e96c41a8e46f8ee7e94d0f58647c424b50eec131ed1ee8b908",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/test_day_history.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/test_day_history.py",
+      "original_sha256": "1644a01a90e48dc59bf55a0974ee4db31add6bbf240705f70660b2f92a6cd147",
+      "published_sha256": "1644a01a90e48dc59bf55a0974ee4db31add6bbf240705f70660b2f92a6cd147",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/test_day_pipeline.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/test_day_pipeline.py",
+      "original_sha256": "d2f7c1c24862c328f5ff7750fcdca8016aa6531a446ca499d44fab30051e392e",
+      "published_sha256": "d2f7c1c24862c328f5ff7750fcdca8016aa6531a446ca499d44fab30051e392e",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/test_execution_adapter.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/test_execution_adapter.py",
+      "original_sha256": "96dec2e3865b0ea6e8e0437a9554242f54cec4be9c1061f5e7b3a51ae77b8c88",
+      "published_sha256": "96dec2e3865b0ea6e8e0437a9554242f54cec4be9c1061f5e7b3a51ae77b8c88",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-code/test_rolling_sigma.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-code/test_rolling_sigma.py",
+      "original_sha256": "bbf8c3c814fe279826f2ca3916983f8882fc70c8d76e4de40d20a7f7f5aa2674",
+      "published_sha256": "bbf8c3c814fe279826f2ca3916983f8882fc70c8d76e4de40d20a7f7f5aa2674",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/README.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/README.md",
+      "original_sha256": "de3be2ca884d8be037d6ea865f2e41c05bc0ef7588b1986eaf35034c8424f36c",
+      "published_sha256": "de3be2ca884d8be037d6ea865f2e41c05bc0ef7588b1986eaf35034c8424f36c",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/audit_accounting.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/audit_accounting.py",
+      "original_sha256": "569b596e7d6a35fae8846c97163c5fd13751666cdfd3a2d753790bab6a1637ea",
+      "published_sha256": "569b596e7d6a35fae8846c97163c5fd13751666cdfd3a2d753790bab6a1637ea",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/audit_risk.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/audit_risk.py",
+      "original_sha256": "519daebdf0266c9b31c25791f48430701d64afa3975a3668cd5eb842523ba279",
+      "published_sha256": "519daebdf0266c9b31c25791f48430701d64afa3975a3668cd5eb842523ba279",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/build_tape.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/build_tape.py",
+      "original_sha256": "83b420751530f26bd809816300766b4314a8f8a685ed80f94f3c873eefd19e64",
+      "published_sha256": "83b420751530f26bd809816300766b4314a8f8a685ed80f94f3c873eefd19e64",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/build_tape_v1.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/build_tape_v1.py",
+      "original_sha256": "508af306b16626df999c5d26c2a89744e7468c7abbd6eaa1591e1faf738349af",
+      "published_sha256": "508af306b16626df999c5d26c2a89744e7468c7abbd6eaa1591e1faf738349af",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/compare_selected.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/compare_selected.py",
+      "original_sha256": "9a9cb4de7a116384eac1aaaca47b745632f8dfd7524f7a6392da17b867e08631",
+      "published_sha256": "9a9cb4de7a116384eac1aaaca47b745632f8dfd7524f7a6392da17b867e08631",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/depth_fill_audit.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/depth_fill_audit.py",
+      "original_sha256": "8297907739f49500e7495f2f49cdc61682dd658d80b74a436a41e0b8c46445f2",
+      "published_sha256": "8297907739f49500e7495f2f49cdc61682dd658d80b74a436a41e0b8c46445f2",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/finalize_run.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/finalize_run.py",
+      "original_sha256": "bbdd1f2e9b3bdb9b096160b32020abdb178d36123537175494c486694332c088",
+      "published_sha256": "bbdd1f2e9b3bdb9b096160b32020abdb178d36123537175494c486694332c088",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/missed_opportunities.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/missed_opportunities.py",
+      "original_sha256": "7200fa46a24a07f2c8615ef2f0d902676e9e301d2dab4ad59da1d79ca71f54c9",
+      "published_sha256": "7200fa46a24a07f2c8615ef2f0d902676e9e301d2dab4ad59da1d79ca71f54c9",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/paper_snapshot.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/paper_snapshot.py",
+      "original_sha256": "d3bf979b877a02f7240f3b8974e8cf379c7a246fe7a23382ac8a5e7a868e9b7a",
+      "published_sha256": "d3bf979b877a02f7240f3b8974e8cf379c7a246fe7a23382ac8a5e7a868e9b7a",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/research_metrics.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/research_metrics.py",
+      "original_sha256": "08714568f09b65096a0add649fcd63477706bd8a909d77a84051b8c2f16c52e3",
+      "published_sha256": "08714568f09b65096a0add649fcd63477706bd8a909d77a84051b8c2f16c52e3",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/risk_policy.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/risk_policy.py",
+      "original_sha256": "5671f18e9188a6a036aa2df8df338474e1cc8dc1a517ec54f77ce46113b22ed6",
+      "published_sha256": "5671f18e9188a6a036aa2df8df338474e1cc8dc1a517ec54f77ce46113b22ed6",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/runner.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/runner.py",
+      "original_sha256": "afa1bfc712f7c47ef56c26ea827a7cd64ca86fdf3f435739987345d0c803846a",
+      "published_sha256": "afa1bfc712f7c47ef56c26ea827a7cd64ca86fdf3f435739987345d0c803846a",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/screen.cpp",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/screen.cpp",
+      "original_sha256": "fd50f85b5de2b21a3e60584abfefccb3a1f63068879284e75057d260b595bd0b",
+      "published_sha256": "fd50f85b5de2b21a3e60584abfefccb3a1f63068879284e75057d260b595bd0b",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/spot_pricing_study.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/spot_pricing_study.py",
+      "original_sha256": "9de967979e9837ffe84f41be20859a432f909fb654a306c770df030a7be53a02",
+      "published_sha256": "9de967979e9837ffe84f41be20859a432f909fb654a306c770df030a7be53a02",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/tardis_adapter.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/tardis_adapter.py",
+      "original_sha256": "5c1867f7c4d16e1df81b552e9fb176c84508ef8222ee888ade6b063cc399af17",
+      "published_sha256": "5c1867f7c4d16e1df81b552e9fb176c84508ef8222ee888ade6b063cc399af17",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/test_audit_optimized.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/test_audit_optimized.py",
+      "original_sha256": "13d23ca7d06778455795af7d45214bb68d4b3f6be9ef80d830a29f11152071e5",
+      "published_sha256": "13d23ca7d06778455795af7d45214bb68d4b3f6be9ef80d830a29f11152071e5",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/test_audit_risk.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/test_audit_risk.py",
+      "original_sha256": "de7f6a2aebf7a97592aa08873a3615d8a9e03343134e8f48831372999def5eff",
+      "published_sha256": "de7f6a2aebf7a97592aa08873a3615d8a9e03343134e8f48831372999def5eff",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/test_compare_selected.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/test_compare_selected.py",
+      "original_sha256": "698ace1a7d884e0d73d2342f79b17d810c2347d9862361fd5e670abba03cb42e",
+      "published_sha256": "698ace1a7d884e0d73d2342f79b17d810c2347d9862361fd5e670abba03cb42e",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/test_first_level.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/test_first_level.py",
+      "original_sha256": "df05fed06bc4eae8151b526bdac20a4cf5144a35e63a3369470e83d66cf60787",
+      "published_sha256": "df05fed06bc4eae8151b526bdac20a4cf5144a35e63a3369470e83d66cf60787",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/test_missed_opportunities.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/test_missed_opportunities.py",
+      "original_sha256": "4651f2a1c38a438fc4535496d341fadf954367180d14405522f590753b7b2d23",
+      "published_sha256": "4651f2a1c38a438fc4535496d341fadf954367180d14405522f590753b7b2d23",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/test_risk.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/test_risk.py",
+      "original_sha256": "dbe1beefa27be669c029719f8b439a5f03a8299b7b7b4ae91b44cc6015a925c2",
+      "published_sha256": "dbe1beefa27be669c029719f8b439a5f03a8299b7b7b4ae91b44cc6015a925c2",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/test_risk_optimized.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/test_risk_optimized.py",
+      "original_sha256": "19333ac3a44c1762e2f17f2292a6abb4aa57982feb26cbe9cb8b36974c3a301a",
+      "published_sha256": "19333ac3a44c1762e2f17f2292a6abb4aa57982feb26cbe9cb8b36974c3a301a",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/test_runner.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/test_runner.py",
+      "original_sha256": "bf86dea87945f5e41a6a0d0d79b48ec49f183157d8700e8ea7d00a2a830f1386",
+      "published_sha256": "bf86dea87945f5e41a6a0d0d79b48ec49f183157d8700e8ea7d00a2a830f1386",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/test_screen.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/test_screen.py",
+      "original_sha256": "898d4b0d93b8920d15b340ac7aa59593f5f7677d00eb150493207cb41f0129fe",
+      "published_sha256": "898d4b0d93b8920d15b340ac7aa59593f5f7677d00eb150493207cb41f0129fe",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/test_spot_pricing_study.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/test_spot_pricing_study.py",
+      "original_sha256": "13c3743930cb684ea043c6ac69a1f95c2e3e90e8ce682a9ab3352cd645674dee",
+      "published_sha256": "13c3743930cb684ea043c6ac69a1f95c2e3e90e8ce682a9ab3352cd645674dee",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/test_tape.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/test_tape.py",
+      "original_sha256": "61c32d3ffec4e324ffb1a9c179ae12a235a67cdd559545504502c272cba4457c",
+      "published_sha256": "61c32d3ffec4e324ffb1a9c179ae12a235a67cdd559545504502c272cba4457c",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/test_verify_select.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/test_verify_select.py",
+      "original_sha256": "1a249189a425d110e87b38fdb1da61171f0b3580ae9c6d131fb4a87a0bb303c2",
+      "published_sha256": "1a249189a425d110e87b38fdb1da61171f0b3580ae9c6d131fb4a87a0bb303c2",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/verify_select.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/verify_select.py",
+      "original_sha256": "c30c23e7adafaa9362b4d9fe04028509dc0e7d1a174f850007fb424f70b3fe3d",
+      "published_sha256": "c30c23e7adafaa9362b4d9fe04028509dc0e7d1a174f850007fb424f70b3fe3d",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/write_exit_report.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/write_exit_report.py",
+      "original_sha256": "1fb5c0980a37aa3154c9e0b252db9ca710ce31c2a85953ce133ab50271fa6b97",
+      "published_sha256": "1fb5c0980a37aa3154c9e0b252db9ca710ce31c2a85953ce133ab50271fa6b97",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization-code/write_spot_report.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization-code/write_spot_report.py",
+      "original_sha256": "0b17a566b45e1b0699439c508a8df6e9be640830e8880bb0a8d9ba67f42b1afe",
+      "published_sha256": "0b17a566b45e1b0699439c508a8df6e9be640830e8880bb0a8d9ba67f42b1afe",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-net-2bps-code/README.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-net-2bps-code/README.md",
+      "original_sha256": "10cca9098d317d51ef6a5fb0cf58e9dc7b781801020f3c9b3310210c1ac1e435",
+      "published_sha256": "10cca9098d317d51ef6a5fb0cf58e9dc7b781801020f3c9b3310210c1ac1e435",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-net-2bps-code/audit_accounting.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-net-2bps-code/audit_accounting.py",
+      "original_sha256": "903cc1c34d851496a27d94856d34444482e383c28028af9e494dbf7252d61289",
+      "published_sha256": "903cc1c34d851496a27d94856d34444482e383c28028af9e494dbf7252d61289",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-net-2bps-code/audit_risk.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-net-2bps-code/audit_risk.py",
+      "original_sha256": "cfcf02e4b8ddf0e20d707fc57ed8e0435d1f92806afa0f45203dd3b0e8b85016",
+      "published_sha256": "cfcf02e4b8ddf0e20d707fc57ed8e0435d1f92806afa0f45203dd3b0e8b85016",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-net-2bps-code/depth_fill_audit.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-net-2bps-code/depth_fill_audit.py",
+      "original_sha256": "30352a28f3d2e599cdcfbeb1cbc6cfd843842d69860546b0729cc2daf9c98d13",
+      "published_sha256": "30352a28f3d2e599cdcfbeb1cbc6cfd843842d69860546b0729cc2daf9c98d13",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-net-2bps-code/make_risk_report.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-net-2bps-code/make_risk_report.py",
+      "original_sha256": "6a576c89c4fbbbccd4e78832b828d8cd827769272f29843cc7eaeba66b12a932",
+      "published_sha256": "6a576c89c4fbbbccd4e78832b828d8cd827769272f29843cc7eaeba66b12a932",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-net-2bps-code/paper_snapshot.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-net-2bps-code/paper_snapshot.py",
+      "original_sha256": "39de5c8f31cbe18d7f654fd6a7a21b596f44f804bfb4821dc2b83c65c090e1fd",
+      "published_sha256": "39de5c8f31cbe18d7f654fd6a7a21b596f44f804bfb4821dc2b83c65c090e1fd",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-net-2bps-code/risk_policy.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-net-2bps-code/risk_policy.py",
+      "original_sha256": "7217cf5cb793150591d6304a70a4863210bb857a0bd3f4018c86cf5a5ab1c87a",
+      "published_sha256": "7217cf5cb793150591d6304a70a4863210bb857a0bd3f4018c86cf5a5ab1c87a",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-net-2bps-code/runner.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-net-2bps-code/runner.py",
+      "original_sha256": "0f0471a18cad0e3a07f1eb656d5a2364ab9cbb812a51100c2e441455d4681e3c",
+      "published_sha256": "0f0471a18cad0e3a07f1eb656d5a2364ab9cbb812a51100c2e441455d4681e3c",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-net-2bps-code/tardis_adapter.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-net-2bps-code/tardis_adapter.py",
+      "original_sha256": "5c1867f7c4d16e1df81b552e9fb176c84508ef8222ee888ade6b063cc399af17",
+      "published_sha256": "5c1867f7c4d16e1df81b552e9fb176c84508ef8222ee888ade6b063cc399af17",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-net-2bps-code/test_audit_risk.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-net-2bps-code/test_audit_risk.py",
+      "original_sha256": "fa51d1002946d31e0c9d474affe389e8502cc45bdeb18d79f2b21ee1f5a5be3d",
+      "published_sha256": "fa51d1002946d31e0c9d474affe389e8502cc45bdeb18d79f2b21ee1f5a5be3d",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-net-2bps-code/test_first_level.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-net-2bps-code/test_first_level.py",
+      "original_sha256": "df05fed06bc4eae8151b526bdac20a4cf5144a35e63a3369470e83d66cf60787",
+      "published_sha256": "df05fed06bc4eae8151b526bdac20a4cf5144a35e63a3369470e83d66cf60787",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-net-2bps-code/test_risk.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-net-2bps-code/test_risk.py",
+      "original_sha256": "dbe1beefa27be669c029719f8b439a5f03a8299b7b7b4ae91b44cc6015a925c2",
+      "published_sha256": "dbe1beefa27be669c029719f8b439a5f03a8299b7b7b4ae91b44cc6015a925c2",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-net-2bps-code/test_runner.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-net-2bps-code/test_runner.py",
+      "original_sha256": "bf86dea87945f5e41a6a0d0d79b48ec49f183157d8700e8ea7d00a2a830f1386",
+      "published_sha256": "bf86dea87945f5e41a6a0d0d79b48ec49f183157d8700e8ea7d00a2a830f1386",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-net-2bps-code/test_tardis_adapter.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-net-2bps-code/test_tardis_adapter.py",
+      "original_sha256": "6fbe78ca4be603609abc23279199d94810dcffd88618357f420fffe52dc76b9b",
+      "published_sha256": "6fbe78ca4be603609abc23279199d94810dcffd88618357f420fffe52dc76b9b",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-risk-2bps-code/README.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-risk-2bps-code/README.md",
+      "original_sha256": "f62b9fffe0269c75c018f48b34b3e6925f9e30f70867b23233394efb86291fac",
+      "published_sha256": "f62b9fffe0269c75c018f48b34b3e6925f9e30f70867b23233394efb86291fac",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-risk-2bps-code/audit_accounting.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-risk-2bps-code/audit_accounting.py",
+      "original_sha256": "eebd8ab829f2c8d1866c84c5dfc9d340fcbf6b7a1978fcd01c2088297a6f0014",
+      "published_sha256": "eebd8ab829f2c8d1866c84c5dfc9d340fcbf6b7a1978fcd01c2088297a6f0014",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-risk-2bps-code/audit_risk.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-risk-2bps-code/audit_risk.py",
+      "original_sha256": "9ab4b1816be129a8578bf0fd830bd7f930f6d985ed691fea666258c5511dbbc4",
+      "published_sha256": "9ab4b1816be129a8578bf0fd830bd7f930f6d985ed691fea666258c5511dbbc4",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-risk-2bps-code/depth_fill_audit.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-risk-2bps-code/depth_fill_audit.py",
+      "original_sha256": "30352a28f3d2e599cdcfbeb1cbc6cfd843842d69860546b0729cc2daf9c98d13",
+      "published_sha256": "30352a28f3d2e599cdcfbeb1cbc6cfd843842d69860546b0729cc2daf9c98d13",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-risk-2bps-code/make_risk_report.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-risk-2bps-code/make_risk_report.py",
+      "original_sha256": "e5ae0dc6479459e3815503817e4071d24767c2d2618b94324ffc3e04cc8147e6",
+      "published_sha256": "e5ae0dc6479459e3815503817e4071d24767c2d2618b94324ffc3e04cc8147e6",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-risk-2bps-code/paper_snapshot.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-risk-2bps-code/paper_snapshot.py",
+      "original_sha256": "333bb51746b1ca8cb2e899414bad70eedb87c0987ca8ed0028439c59d8a4230a",
+      "published_sha256": "333bb51746b1ca8cb2e899414bad70eedb87c0987ca8ed0028439c59d8a4230a",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-risk-2bps-code/risk_policy.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-risk-2bps-code/risk_policy.py",
+      "original_sha256": "c957746b43c546afe7974def5f91bcf970aba4c2a178e4e3cbd0602212f5dc45",
+      "published_sha256": "c957746b43c546afe7974def5f91bcf970aba4c2a178e4e3cbd0602212f5dc45",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-risk-2bps-code/runner.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-risk-2bps-code/runner.py",
+      "original_sha256": "7aa8032a8f16dab87954c6514ec26ce8e2c87de82b4d2e14b201b511ee801a03",
+      "published_sha256": "7aa8032a8f16dab87954c6514ec26ce8e2c87de82b4d2e14b201b511ee801a03",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-risk-2bps-code/tardis_adapter.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-risk-2bps-code/tardis_adapter.py",
+      "original_sha256": "5c1867f7c4d16e1df81b552e9fb176c84508ef8222ee888ade6b063cc399af17",
+      "published_sha256": "5c1867f7c4d16e1df81b552e9fb176c84508ef8222ee888ade6b063cc399af17",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-risk-2bps-code/test_audit_risk.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-risk-2bps-code/test_audit_risk.py",
+      "original_sha256": "2e600d13bdb3602036a2cb19827c97a18e642012fb84d670c10d9133dfab26a3",
+      "published_sha256": "2e600d13bdb3602036a2cb19827c97a18e642012fb84d670c10d9133dfab26a3",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-risk-2bps-code/test_first_level.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-risk-2bps-code/test_first_level.py",
+      "original_sha256": "df05fed06bc4eae8151b526bdac20a4cf5144a35e63a3369470e83d66cf60787",
+      "published_sha256": "df05fed06bc4eae8151b526bdac20a4cf5144a35e63a3369470e83d66cf60787",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-risk-2bps-code/test_risk.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-risk-2bps-code/test_risk.py",
+      "original_sha256": "df632ba0b44940fb8db3ad4fe12923e647b5517ec8c6709a1f09b27f343c54d6",
+      "published_sha256": "df632ba0b44940fb8db3ad4fe12923e647b5517ec8c6709a1f09b27f343c54d6",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-risk-2bps-code/test_runner.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-risk-2bps-code/test_runner.py",
+      "original_sha256": "bf86dea87945f5e41a6a0d0d79b48ec49f183157d8700e8ea7d00a2a830f1386",
+      "published_sha256": "bf86dea87945f5e41a6a0d0d79b48ec49f183157d8700e8ea7d00a2a830f1386",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-risk-2bps-code/test_tardis_adapter.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-risk-2bps-code/test_tardis_adapter.py",
+      "original_sha256": "6fbe78ca4be603609abc23279199d94810dcffd88618357f420fffe52dc76b9b",
+      "published_sha256": "6fbe78ca4be603609abc23279199d94810dcffd88618357f420fffe52dc76b9b",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-activity-gate-code/README.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-activity-gate-code/README.md",
+      "original_sha256": "1c95b853ea8c3d35c412d129189f02fb5b5487deab0c59925772f8116a70596f",
+      "published_sha256": "1c95b853ea8c3d35c412d129189f02fb5b5487deab0c59925772f8116a70596f",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-activity-gate-code/audit_activity_experiment-v1.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-activity-gate-code/audit_activity_experiment-v1.py",
+      "original_sha256": "c15bc7b358b1f4069d3f80ad57e76c9c97bba58313c0fe278bd6a05a64cef5b5",
+      "published_sha256": "c15bc7b358b1f4069d3f80ad57e76c9c97bba58313c0fe278bd6a05a64cef5b5",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-activity-gate-code/audit_activity_experiment.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-activity-gate-code/audit_activity_experiment.py",
+      "original_sha256": "08173dbd4111bb81cfa0dab84bfb7e4571b0cbe04616f7b69851e63bf690559d",
+      "published_sha256": "08173dbd4111bb81cfa0dab84bfb7e4571b0cbe04616f7b69851e63bf690559d",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-activity-gate-code/calibrate_activity.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-activity-gate-code/calibrate_activity.py",
+      "original_sha256": "24ff30cdfaad6a68269e558fbc150bd97c4fb352fc9f9eb6631697ba34aaee81",
+      "published_sha256": "24ff30cdfaad6a68269e558fbc150bd97c4fb352fc9f9eb6631697ba34aaee81",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-activity-gate-code/experiment.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-activity-gate-code/experiment.py",
+      "original_sha256": "4a0f0e0c61f7727e3e7140e8d8883f804354091a5550b684783115ced5a8e3c6",
+      "published_sha256": "4a0f0e0c61f7727e3e7140e8d8883f804354091a5550b684783115ced5a8e3c6",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-activity-gate-code/summarize_activity.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-activity-gate-code/summarize_activity.py",
+      "original_sha256": "aac708faeb84c1fcffe683b0107c87d5d28d87703dbc5e730bd07b0fa20dd31c",
+      "published_sha256": "aac708faeb84c1fcffe683b0107c87d5d28d87703dbc5e730bd07b0fa20dd31c",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-activity-gate-code/test_audit_activity_experiment.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-activity-gate-code/test_audit_activity_experiment.py",
+      "original_sha256": "38f0824c08b04554b2be0f79da21788327cbd4977f08a0a56c2fc7c5007dde70",
+      "published_sha256": "38f0824c08b04554b2be0f79da21788327cbd4977f08a0a56c2fc7c5007dde70",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-activity-gate-code/test_calibrate_activity.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-activity-gate-code/test_calibrate_activity.py",
+      "original_sha256": "792653c71a64ccf332feea5ff2eb82864ca4844b44774efcb65098ac11ad4063",
+      "published_sha256": "792653c71a64ccf332feea5ff2eb82864ca4844b44774efcb65098ac11ad4063",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-activity-gate-code/test_experiment.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-activity-gate-code/test_experiment.py",
+      "original_sha256": "26fdf4bce35a2291596b0190d3407ce8a2ae13d76c06e099f9016b3d8a2c41db",
+      "published_sha256": "26fdf4bce35a2291596b0190d3407ce8a2ae13d76c06e099f9016b3d8a2c41db",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-activity-gate-code/test_summarize_activity.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-activity-gate-code/test_summarize_activity.py",
+      "original_sha256": "cc14f435459f347272dfb8cfe8b1866323e9cb011f24b74572911dc19717d736",
+      "published_sha256": "cc14f435459f347272dfb8cfe8b1866323e9cb011f24b74572911dc19717d736",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-dual-timeout-code/README.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-dual-timeout-code/README.md",
+      "original_sha256": "4b853cd5a5f827b9ccb52cb49a5cefacfda454797adc08807e91a4960e53a4b9",
+      "published_sha256": "4b853cd5a5f827b9ccb52cb49a5cefacfda454797adc08807e91a4960e53a4b9",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-dual-timeout-code/audit_exports.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-dual-timeout-code/audit_exports.py",
+      "original_sha256": "a18e9b32ffee5d4f15e51284513dfebd7ac9989e76f55cf1a7aa63ce49ed06cf",
+      "published_sha256": "a18e9b32ffee5d4f15e51284513dfebd7ac9989e76f55cf1a7aa63ce49ed06cf",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-dual-timeout-code/audit_lifecycle.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-dual-timeout-code/audit_lifecycle.py",
+      "original_sha256": "f448248934c74c926b3a47feb07245dbb4e03c435aaba0d8e8ea18b34fff8b08",
+      "published_sha256": "f448248934c74c926b3a47feb07245dbb4e03c435aaba0d8e8ea18b34fff8b08",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-dual-timeout-code/lifecycle_engine.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-dual-timeout-code/lifecycle_engine.py",
+      "original_sha256": "961027607b73577c58a982237b7aa5adf0fe2fa03db49da735a915049835be9a",
+      "published_sha256": "961027607b73577c58a982237b7aa5adf0fe2fa03db49da735a915049835be9a",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-dual-timeout-code/replay.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-dual-timeout-code/replay.py",
+      "original_sha256": "ea6eafc6f14df3016f305504b6660b90d5eafe1286d50800c5ded4ab606c48b4",
+      "published_sha256": "ea6eafc6f14df3016f305504b6660b90d5eafe1286d50800c5ded4ab606c48b4",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-dual-timeout-code/summarize.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-dual-timeout-code/summarize.py",
+      "original_sha256": "40b1ba516a8b437e4bb0a46166d0a2295e68cc44f6c9d5d7713a6c27f7fef542",
+      "published_sha256": "40b1ba516a8b437e4bb0a46166d0a2295e68cc44f6c9d5d7713a6c27f7fef542",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-dual-timeout-code/test_audit_lifecycle.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-dual-timeout-code/test_audit_lifecycle.py",
+      "original_sha256": "0e4cd98b21f7edd25b9a2fe481bd2918357844eecd47afdc668c194474b26dfb",
+      "published_sha256": "0e4cd98b21f7edd25b9a2fe481bd2918357844eecd47afdc668c194474b26dfb",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-dual-timeout-code/test_lifecycle_adversarial.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-dual-timeout-code/test_lifecycle_adversarial.py",
+      "original_sha256": "d114c99ba66c5c7c3f5ef7bde31ad0b697f3beb0be02b50a97eb29d91cfd9083",
+      "published_sha256": "d114c99ba66c5c7c3f5ef7bde31ad0b697f3beb0be02b50a97eb29d91cfd9083",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-dual-timeout-code/test_lifecycle_engine.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-dual-timeout-code/test_lifecycle_engine.py",
+      "original_sha256": "dfe2fb2667233a49b2afe2616d92a422c7ecc84595025c54ce77fb780d3ab9f3",
+      "published_sha256": "dfe2fb2667233a49b2afe2616d92a422c7ecc84595025c54ce77fb780d3ab9f3",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-dual-timeout-code/test_replay.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-dual-timeout-code/test_replay.py",
+      "original_sha256": "2eb14b14ab0b2dc300e04b9e4abfd674cc544fe1a04454fdf956e3cae2ba30de",
+      "published_sha256": "2eb14b14ab0b2dc300e04b9e4abfd674cc544fe1a04454fdf956e3cae2ba30de",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/README.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/README.md",
+      "original_sha256": "81e8956181ca15207e74cb0373c037791809707282f178329282f11197d058fe",
+      "published_sha256": "81e8956181ca15207e74cb0373c037791809707282f178329282f11197d058fe",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/apply_scope.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/apply_scope.py",
+      "original_sha256": "f74761a2f06333772f70e6f63769f92255aa85be37d6cda792f2b11295b659cc",
+      "published_sha256": "f74761a2f06333772f70e6f63769f92255aa85be37d6cda792f2b11295b659cc",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/audit_perfect.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/audit_perfect.py",
+      "original_sha256": "23395b4ea30b8ff5fab0bf109badf9ef65f7d438fadabe28d9cb23dcd8935c7f",
+      "published_sha256": "23395b4ea30b8ff5fab0bf109badf9ef65f7d438fadabe28d9cb23dcd8935c7f",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/audit_raw_book_events.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/audit_raw_book_events.py",
+      "original_sha256": "5f1b2226d664f433c0a466dad6c78b427e19483bc24b29f5a85c3d5acf344c09",
+      "published_sha256": "5f1b2226d664f433c0a466dad6c78b427e19483bc24b29f5a85c3d5acf344c09",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/audit_scope.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/audit_scope.py",
+      "original_sha256": "83e7d047710d26757f11798a1be8e2348328f618ff7f1e5c4749c7d7470b6ef8",
+      "published_sha256": "83e7d047710d26757f11798a1be8e2348328f618ff7f1e5c4749c7d7470b6ef8",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/build_features.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/build_features.py",
+      "original_sha256": "bfc060a02e8ee193a626311b2ec858c22f1ec7fba893a2296a21778cfdb62105",
+      "published_sha256": "bfc060a02e8ee193a626311b2ec858c22f1ec7fba893a2296a21778cfdb62105",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/extract_book_events.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/extract_book_events.py",
+      "original_sha256": "5949565880557531b6c718f968352b2a82aaae9c4c4a90ff916d7ff47fccc7fc",
+      "published_sha256": "5949565880557531b6c718f968352b2a82aaae9c4c4a90ff916d7ff47fccc7fc",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/freeze_selection.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/freeze_selection.py",
+      "original_sha256": "d173eab3ba4ab59c2d049df77efd499b90e9d47fd3649834058b581fb3808032",
+      "published_sha256": "d173eab3ba4ab59c2d049df77efd499b90e9d47fd3649834058b581fb3808032",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/independent_review.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/independent_review.py",
+      "original_sha256": "9e77f9476a60f3f13d5390e87625067cbc0e41d5ae3ab60b22f80534068cca79",
+      "published_sha256": "9e77f9476a60f3f13d5390e87625067cbc0e41d5ae3ab60b22f80534068cca79",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/microstructure_oracle.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/microstructure_oracle.py",
+      "original_sha256": "fd8448edfdbef6d1c237981864d36e1d502ae13805bcea87980e443e392c8a49",
+      "published_sha256": "fd8448edfdbef6d1c237981864d36e1d502ae13805bcea87980e443e392c8a49",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/perfect_taker.cpp",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/perfect_taker.cpp",
+      "original_sha256": "bb7a9f03239e1e91dd0a0b6e77bf56a03f3c733e881a93918d6945a15e397ef8",
+      "published_sha256": "7bec5f82f6a994188c1dbf035f325b0693903571e567d2670a517dd7adad4c49",
+      "adapted": true
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/prepare.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/prepare.py",
+      "original_sha256": "65d7c8bbb80fe022af6978a9db5ab37e7524334e22651374c621185660057a41",
+      "published_sha256": "65d7c8bbb80fe022af6978a9db5ab37e7524334e22651374c621185660057a41",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/run_day.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/run_day.py",
+      "original_sha256": "f4dc47c14d20e247c5d0e2540a1f4541b1c554722d2c704055ae42055b9e10c5",
+      "published_sha256": "f4dc47c14d20e247c5d0e2540a1f4541b1c554722d2c704055ae42055b9e10c5",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/selection.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/selection.py",
+      "original_sha256": "d7699ed02a864a8bdd467d1f515f4c54836436bba1fde14970803022c753cae3",
+      "published_sha256": "d7699ed02a864a8bdd467d1f515f4c54836436bba1fde14970803022c753cae3",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/summarize_experiment.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/summarize_experiment.py",
+      "original_sha256": "643bf3f60aefcbb24a98bc4d5a3f5bc68935d53973b0382823c326df809fd193",
+      "published_sha256": "643bf3f60aefcbb24a98bc4d5a3f5bc68935d53973b0382823c326df809fd193",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/test_apply_scope.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/test_apply_scope.py",
+      "original_sha256": "1223a6f9a8920bfa65e35140315a06e92e30458fef9e11d4483d3aa3fc11a790",
+      "published_sha256": "1223a6f9a8920bfa65e35140315a06e92e30458fef9e11d4483d3aa3fc11a790",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/test_build_features.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/test_build_features.py",
+      "original_sha256": "bd1a9fd1de5b8c0dadb708ee04b2c20f393a797e6aba63acecdf7f969f75e7ae",
+      "published_sha256": "bd1a9fd1de5b8c0dadb708ee04b2c20f393a797e6aba63acecdf7f969f75e7ae",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/test_extract_book_events.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/test_extract_book_events.py",
+      "original_sha256": "51363e2a58b99ee5b6fe0ef346ea473fd9ca879e09eb52b0c1c4b91e07c3fa04",
+      "published_sha256": "51363e2a58b99ee5b6fe0ef346ea473fd9ca879e09eb52b0c1c4b91e07c3fa04",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/test_freeze_binding.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/test_freeze_binding.py",
+      "original_sha256": "b25f3909cfbe71fb3595c5cdf4442b3f2918739f15b01c33e199c1906ebb1ee9",
+      "published_sha256": "b25f3909cfbe71fb3595c5cdf4442b3f2918739f15b01c33e199c1906ebb1ee9",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/test_microstructure_oracle.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/test_microstructure_oracle.py",
+      "original_sha256": "19577579e56648f2f0d88202331e68bed2132f1ca625f7a983517f09410df017",
+      "published_sha256": "19577579e56648f2f0d88202331e68bed2132f1ca625f7a983517f09410df017",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/test_selection.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/test_selection.py",
+      "original_sha256": "a532becc0c63c62cf715b7505686ee3357fbf864931b8044264d0d8cdeee7c2f",
+      "published_sha256": "a532becc0c63c62cf715b7505686ee3357fbf864931b8044264d0d8cdeee7c2f",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-code/test_summarize_experiment.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-code/test_summarize_experiment.py",
+      "original_sha256": "388956706e5d1ec14be2d2ebd5907affc04d467b9643818af96762ae58887178",
+      "published_sha256": "388956706e5d1ec14be2d2ebd5907affc04d467b9643818af96762ae58887178",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-code/README.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-code/README.md",
+      "original_sha256": "77a366905aac16b5f128660f8cc8f7bedcc4cef1d5b290f3683f03ce0d5a56a9",
+      "published_sha256": "77a366905aac16b5f128660f8cc8f7bedcc4cef1d5b290f3683f03ce0d5a56a9",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-code/attribution.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-code/attribution.py",
+      "original_sha256": "c1e8f2c86bc0d38589c51c54e621320b7d851261c40086e957fbd1caf66717b8",
+      "published_sha256": "c1e8f2c86bc0d38589c51c54e621320b7d851261c40086e957fbd1caf66717b8",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-code/audit_inputs.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-code/audit_inputs.py",
+      "original_sha256": "d0a3ea5c4981a7f42df78629a3ec3af33f763168553ba7227a356bf92288d53e",
+      "published_sha256": "d0a3ea5c4981a7f42df78629a3ec3af33f763168553ba7227a356bf92288d53e",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-code/audit_perfect.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-code/audit_perfect.py",
+      "original_sha256": "f0615df3ec4c68c4ac4d3d8ab96cf0c60f2be15bcd22d972dd6feaa59c3e9180",
+      "published_sha256": "f0615df3ec4c68c4ac4d3d8ab96cf0c60f2be15bcd22d972dd6feaa59c3e9180",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-code/freeze_selection.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-code/freeze_selection.py",
+      "original_sha256": "c5c7ca1c9cb58fa4c95d62def02959b7e21f2c0028b255f6680d0788af680470",
+      "published_sha256": "c5c7ca1c9cb58fa4c95d62def02959b7e21f2c0028b255f6680d0788af680470",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-code/microstructure_attribution.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-code/microstructure_attribution.py",
+      "original_sha256": "ea8f46524db9bdef9e64ab925b27c098ff9fb27770d31d9269c34eefc6b4a34b",
+      "published_sha256": "ea8f46524db9bdef9e64ab925b27c098ff9fb27770d31d9269c34eefc6b4a34b",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-code/perfect_taker.cpp",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-code/perfect_taker.cpp",
+      "original_sha256": "8c3c9c30b40fd2d493976c00d0e471836b1f6d9709367971bf54f820b3a09c0d",
+      "published_sha256": "be8828d421c2e6af30974c0c95224722fa83bdfee5427941e4ccebb02c1d8727",
+      "adapted": true
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-code/run_day.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-code/run_day.py",
+      "original_sha256": "e8da06f3b42757eb34ed5aae43507c33da85a1293bf2cfd31b3e7d7f5b87e46f",
+      "published_sha256": "e8da06f3b42757eb34ed5aae43507c33da85a1293bf2cfd31b3e7d7f5b87e46f",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-code/selection.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-code/selection.py",
+      "original_sha256": "6732828e045cba699d58d9166b8e0a5b5f87de44d11d6f304f8bd41ba1095f2a",
+      "published_sha256": "6732828e045cba699d58d9166b8e0a5b5f87de44d11d6f304f8bd41ba1095f2a",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-code/summarize_result.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-code/summarize_result.py",
+      "original_sha256": "9f75ca8551c9fc7dfd1643339cee80bc5d973576a928845562cf15f683fee175",
+      "published_sha256": "9f75ca8551c9fc7dfd1643339cee80bc5d973576a928845562cf15f683fee175",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-code/test_attribution.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-code/test_attribution.py",
+      "original_sha256": "7a84a7b24a0727d8603ad3d07c4cf4d228553d2658080ba3d522e47cc9f963a9",
+      "published_sha256": "7a84a7b24a0727d8603ad3d07c4cf4d228553d2658080ba3d522e47cc9f963a9",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-code/test_audit_perfect.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-code/test_audit_perfect.py",
+      "original_sha256": "74b5a787a117b89e25b7d519fdacbf1cc6d86068928c36384de8fd79e6d3972c",
+      "published_sha256": "74b5a787a117b89e25b7d519fdacbf1cc6d86068928c36384de8fd79e6d3972c",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-code/test_microstructure_attribution.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-code/test_microstructure_attribution.py",
+      "original_sha256": "9e31e1d1b4dd5b544490faa787c360294867d5796c6f7aaedc75f9f1f1daa31f",
+      "published_sha256": "9e31e1d1b4dd5b544490faa787c360294867d5796c6f7aaedc75f9f1f1daa31f",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-code/test_perfect_taker.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-code/test_perfect_taker.py",
+      "original_sha256": "32962bd3c4895f0cb61cf60d5ebe789e6a0126ecf25c8e1612fd1ab2d6e3b106",
+      "published_sha256": "32962bd3c4895f0cb61cf60d5ebe789e6a0126ecf25c8e1612fd1ab2d6e3b106",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-code/test_selection.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-code/test_selection.py",
+      "original_sha256": "1d285c2e09a1a8b206938ab289b297383f9e37415de036ace5140c24039513b3",
+      "published_sha256": "1d285c2e09a1a8b206938ab289b297383f9e37415de036ace5140c24039513b3",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/README.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/README.md",
+      "original_sha256": "40ab600a8cf17a91e1765dd15a975c641573595e02573e79ecc83dbaec7848a9",
+      "published_sha256": "40ab600a8cf17a91e1765dd15a975c641573595e02573e79ecc83dbaec7848a9",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/audit_gate_features.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/audit_gate_features.py",
+      "original_sha256": "808042e9780e5a9e0367d896c20ae63b508f7a0403af0c4855f84395f4deb0be",
+      "published_sha256": "808042e9780e5a9e0367d896c20ae63b508f7a0403af0c4855f84395f4deb0be",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/audit_perfect.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/audit_perfect.py",
+      "original_sha256": "23395b4ea30b8ff5fab0bf109badf9ef65f7d438fadabe28d9cb23dcd8935c7f",
+      "published_sha256": "23395b4ea30b8ff5fab0bf109badf9ef65f7d438fadabe28d9cb23dcd8935c7f",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/build_features.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/build_features.py",
+      "original_sha256": "0eed5c86d05c9e0122d3b56b20c4806534de7cbac91615ee606b353b72fee49d",
+      "published_sha256": "0eed5c86d05c9e0122d3b56b20c4806534de7cbac91615ee606b353b72fee49d",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/freeze_selection.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/freeze_selection.py",
+      "original_sha256": "0398d965deb5c51595e3655286a647e93ad6a0626f145d5793541736abcee831",
+      "published_sha256": "0398d965deb5c51595e3655286a647e93ad6a0626f145d5793541736abcee831",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/independent_review.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/independent_review.py",
+      "original_sha256": "f655f2dd65175b2d781f20f016d51f6961809da447778eb0a7e2f18fd362d627",
+      "published_sha256": "f655f2dd65175b2d781f20f016d51f6961809da447778eb0a7e2f18fd362d627",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/perfect_taker.cpp",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/perfect_taker.cpp",
+      "original_sha256": "bb7a9f03239e1e91dd0a0b6e77bf56a03f3c733e881a93918d6945a15e397ef8",
+      "published_sha256": "7bec5f82f6a994188c1dbf035f325b0693903571e567d2670a517dd7adad4c49",
+      "adapted": true
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/prepare.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/prepare.py",
+      "original_sha256": "be56b7299445e7b426e38da413b9e0f06585381983784f68c74e1793623ed7bc",
+      "published_sha256": "be56b7299445e7b426e38da413b9e0f06585381983784f68c74e1793623ed7bc",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/run_day.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/run_day.py",
+      "original_sha256": "f4dc47c14d20e247c5d0e2540a1f4541b1c554722d2c704055ae42055b9e10c5",
+      "published_sha256": "f4dc47c14d20e247c5d0e2540a1f4541b1c554722d2c704055ae42055b9e10c5",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/selection.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/selection.py",
+      "original_sha256": "c4c9691a61bac1b0fcbca2be99c1f6c605bf4cce9195284a4daf1288475a8c4e",
+      "published_sha256": "c4c9691a61bac1b0fcbca2be99c1f6c605bf4cce9195284a4daf1288475a8c4e",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/summarize_experiment.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/summarize_experiment.py",
+      "original_sha256": "09b782998c321c48d8e860ddf0cfe53e5c1ccb0cc45bb449ea89daaa2d265075",
+      "published_sha256": "09b782998c321c48d8e860ddf0cfe53e5c1ccb0cc45bb449ea89daaa2d265075",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/test_audit_gate_features.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/test_audit_gate_features.py",
+      "original_sha256": "1c46603387814efe0068a5030bd08c1cb289d1432df9c5827f8de7d6ba3eaeea",
+      "published_sha256": "1c46603387814efe0068a5030bd08c1cb289d1432df9c5827f8de7d6ba3eaeea",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/test_audit_perfect.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/test_audit_perfect.py",
+      "original_sha256": "74b5a787a117b89e25b7d519fdacbf1cc6d86068928c36384de8fd79e6d3972c",
+      "published_sha256": "74b5a787a117b89e25b7d519fdacbf1cc6d86068928c36384de8fd79e6d3972c",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/test_build_features.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/test_build_features.py",
+      "original_sha256": "29f47556d0111713a762d8f36a5e6f54971b99c03d593647df8d0ca551c9a991",
+      "published_sha256": "29f47556d0111713a762d8f36a5e6f54971b99c03d593647df8d0ca551c9a991",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/test_entry_gates.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/test_entry_gates.py",
+      "original_sha256": "c0949255d3f4ac03e3fe49c46acb55d0b839aaf4c5fc104e7800e7e9e8890819",
+      "published_sha256": "c0949255d3f4ac03e3fe49c46acb55d0b839aaf4c5fc104e7800e7e9e8890819",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/test_freeze_binding.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/test_freeze_binding.py",
+      "original_sha256": "2b43dc1ffa5d79a583f4e190add7af2b66b17f91f0b2f175561c847de7c216a9",
+      "published_sha256": "2b43dc1ffa5d79a583f4e190add7af2b66b17f91f0b2f175561c847de7c216a9",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/test_perfect_taker.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/test_perfect_taker.py",
+      "original_sha256": "32962bd3c4895f0cb61cf60d5ebe789e6a0126ecf25c8e1612fd1ab2d6e3b106",
+      "published_sha256": "32962bd3c4895f0cb61cf60d5ebe789e6a0126ecf25c8e1612fd1ab2d6e3b106",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/test_selection.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/test_selection.py",
+      "original_sha256": "35248d9c2b1aa040e345538a68eedc029eb9962e16094fb3913a3ca2f5273fa5",
+      "published_sha256": "35248d9c2b1aa040e345538a68eedc029eb9962e16094fb3913a3ca2f5273fa5",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-code/test_summarize_experiment.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-code/test_summarize_experiment.py",
+      "original_sha256": "86ff82bf6bfaa451fcea50987e79fa28de9ae7bf1a3e0c04ce197013dd7027b1",
+      "published_sha256": "86ff82bf6bfaa451fcea50987e79fa28de9ae7bf1a3e0c04ce197013dd7027b1",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-oct1-history/collect.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-oct1-history/collect.py",
+      "original_sha256": "68434fb0ac891cd6a4a1ac52939a4a9a0699e2019e21d5bc77b1ff283e9346b8",
+      "published_sha256": "68434fb0ac891cd6a4a1ac52939a4a9a0699e2019e21d5bc77b1ff283e9346b8",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-oct1-history/build_gate.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-oct1-history/build_gate.py",
+      "original_sha256": "ce91abb0535d6d6168fe627f3eae62ec51c86699edd9cf123eef965fbc6649af",
+      "published_sha256": "ce91abb0535d6d6168fe627f3eae62ec51c86699edd9cf123eef965fbc6649af",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-oct1-history/audit.py",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-oct1-history/audit.py",
+      "original_sha256": "8172b0f0a4a3247c2cebfa870d13e4ab6ede5353e0f05196e9e66681af49f53a",
+      "published_sha256": "8172b0f0a4a3247c2cebfa870d13e4ab6ede5353e0f05196e9e66681af49f53a",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-l1-replay-20261001/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-l1-replay-20261001/report.md",
+      "original_sha256": "1ceab979c01e7dfcffa312f1f7b71f2da7e5d8343cc9469145ecf12bcd2ce3e7",
+      "published_sha256": "1ceab979c01e7dfcffa312f1f7b71f2da7e5d8343cc9469145ecf12bcd2ce3e7",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-tardis-20261001/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-tardis-20261001/report.md",
+      "original_sha256": "15e38cd12c9ebd08a4ec46c3d9712c1ddec52c8aaf352127ec66f15a79c9243f",
+      "published_sha256": "15e38cd12c9ebd08a4ec46c3d9712c1ddec52c8aaf352127ec66f15a79c9243f",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261009-btw-tardis-replay-20261001/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261009-btw-tardis-replay-20261001/report.md",
+      "original_sha256": "3778e74b71000511b97ba11310616b1b91d6ab43440ae4b22d429f7de7cf6cb3",
+      "published_sha256": "3778e74b71000511b97ba11310616b1b91d6ab43440ae4b22d429f7de7cf6cb3",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-activity-maker/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-activity-maker/report.md",
+      "original_sha256": "18cfa5d62a9ee4a6e17a7233a990592ad8ff8f70196f63e0f0cf0fe3bb16c65e",
+      "published_sha256": "18cfa5d62a9ee4a6e17a7233a990592ad8ff8f70196f63e0f0cf0fe3bb16c65e",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-as-comparison/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-as-comparison/report.md",
+      "original_sha256": "14ad494224468462528c31aa0d399077194508eefcbd56ea7f4cb7f67c615bee",
+      "published_sha256": "14ad494224468462528c31aa0d399077194508eefcbd56ea7f4cb7f67c615bee",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-counterparty-offset/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-counterparty-offset/report.md",
+      "original_sha256": "5e0e995e630044e07d472f50509b4d8eaa7c2b8c539c673bb414cb926fa173f9",
+      "published_sha256": "5e0e995e630044e07d472f50509b4d8eaa7c2b8c539c673bb414cb926fa173f9",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-optimization/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-optimization/report.md",
+      "original_sha256": "352c9dce182f877fc70746acec0fd8c0c351fc42204c991f4b08355ddd237a6e",
+      "published_sha256": "352c9dce182f877fc70746acec0fd8c0c351fc42204c991f4b08355ddd237a6e",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-exit-relative-tp5-sl20-h100-20261001/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-exit-relative-tp5-sl20-h100-20261001/report.md",
+      "original_sha256": "352c9dce182f877fc70746acec0fd8c0c351fc42204c991f4b08355ddd237a6e",
+      "published_sha256": "352c9dce182f877fc70746acec0fd8c0c351fc42204c991f4b08355ddd237a6e",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-tp2-gross-sl2-gross-20261001/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-tp2-gross-sl2-gross-20261001/report.md",
+      "original_sha256": "bdb66447b3514b339fe2dcefae62d3d496eeea999b7b973757670e4825a35450",
+      "published_sha256": "bdb66447b3514b339fe2dcefae62d3d496eeea999b7b973757670e4825a35450",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-l1-tp2-net-sl2-net-20261001/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-l1-tp2-net-sl2-net-20261001/report.md",
+      "original_sha256": "66ff5a2e1dfed25683f614621c44fb537082d64d6a3d35d81dfb79b83f4b906e",
+      "published_sha256": "66ff5a2e1dfed25683f614621c44fb537082d64d6a3d35d81dfb79b83f4b906e",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-spot-anchor-day/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-spot-anchor-day/report.md",
+      "original_sha256": "803db73fb93612c8bdd528f98a318bb5b3b651bedd2b2e63fcc6009b190deacd",
+      "published_sha256": "803db73fb93612c8bdd528f98a318bb5b3b651bedd2b2e63fcc6009b190deacd",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261012-btw-spot-anchor-probe/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261012-btw-spot-anchor-probe/report.md",
+      "original_sha256": "e1a532a8e5fdb5856116b7790bead980c3e92ae247790da641c085567118fc1e",
+      "published_sha256": "e1a532a8e5fdb5856116b7790bead980c3e92ae247790da641c085567118fc1e",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-activity-gate-experiment-025636Z/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-activity-gate-experiment-025636Z/report.md",
+      "original_sha256": "2c222318033d162803e58f20f537dc47969acb4879d97ff75105d0fdd20310eb",
+      "published_sha256": "2c222318033d162803e58f20f537dc47969acb4879d97ff75105d0fdd20310eb",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-dual-timeout/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-dual-timeout/report.md",
+      "original_sha256": "53914dca54bca6c3ff6fcd2a582b13e57440cf1fb29f32734dceed3908aa7115",
+      "published_sha256": "53914dca54bca6c3ff6fcd2a582b13e57440cf1fb29f32734dceed3908aa7115",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-latest-replay-015927Z/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-latest-replay-015927Z/report.md",
+      "original_sha256": "a41330ef6f670709248b21699c2da427ec14f4ea7fb2b6be75cddeeaed0d1ca2",
+      "published_sha256": "a41330ef6f670709248b21699c2da427ec14f4ea7fb2b6be75cddeeaed0d1ca2",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/report.md",
+      "original_sha256": "070fab38e6d61ac734bfe79f4ffcc9da4988727a6614ab149410b8860e0cfccc",
+      "published_sha256": "070fab38e6d61ac734bfe79f4ffcc9da4988727a6614ab149410b8860e0cfccc",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-perfect-taker-optimization-021035Z/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-perfect-taker-optimization-021035Z/report.md",
+      "original_sha256": "9204a4e5d933aad8c581e31bb94c3660a1fabfb05d65795f6ce401f89a6bf1e0",
+      "published_sha256": "9204a4e5d933aad8c581e31bb94c3660a1fabfb05d65795f6ce401f89a6bf1e0",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-diagnostic-0340/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-diagnostic-0340/report.md",
+      "original_sha256": "5efa7def62624d342986d2f3e360a4c9d28d109b41f295ebd4d1c1f90f662c55",
+      "published_sha256": "5efa7def62624d342986d2f3e360a4c9d28d109b41f295ebd4d1c1f90f662c55",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-volatility-gate-experiment-090710Z/report.md",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-volatility-gate-experiment-090710Z/report.md",
+      "original_sha256": "28a9c6eec6c36a18d8ca3b4cbdb60dffc7bcfe9fe64cbb6f81869dd1e18ed7eb",
+      "published_sha256": "28a9c6eec6c36a18d8ca3b4cbdb60dffc7bcfe9fe64cbb6f81869dd1e18ed7eb",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/completion.json",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/completion.json",
+      "original_sha256": "87c35646e56bce503e738a37223bfddcc4e973bd68f59a9e0b1d37629785e0b7",
+      "published_sha256": "87c35646e56bce503e738a37223bfddcc4e973bd68f59a9e0b1d37629785e0b7",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/protocol.json",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/protocol.json",
+      "original_sha256": "efe60bc4a2dbed66d55b4e40a3a5d18d20b9b1db18dbd4db8535728dd4724a74",
+      "published_sha256": "efe60bc4a2dbed66d55b4e40a3a5d18d20b9b1db18dbd4db8535728dd4724a74",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/scope-amendment.json",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/scope-amendment.json",
+      "original_sha256": "87f985b0f0a530e0f05b52a80e2052fba8e6a7bd79f0d179cd4e84b615d0d7bf",
+      "published_sha256": "87f985b0f0a530e0f05b52a80e2052fba8e6a7bd79f0d179cd4e84b615d0d7bf",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/selection-frozen.json",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/selection-frozen.json",
+      "original_sha256": "e7178282d9e43aa46bfe975beeb69fa5f0e1d2ead6f5e5b7fd55b66433a67952",
+      "published_sha256": "e7178282d9e43aa46bfe975beeb69fa5f0e1d2ead6f5e5b7fd55b66433a67952",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/grid-scores.json",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/grid-scores.json",
+      "original_sha256": "6e857be4b6900bc501462eb7fbf03cc7d32e69ee8118381dee2058fc6268f5da",
+      "published_sha256": "6e857be4b6900bc501462eb7fbf03cc7d32e69ee8118381dee2058fc6268f5da",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/comparison.csv",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/comparison.csv",
+      "original_sha256": "912bc335b136ffe3cf0a768c1798df2d1654aeabe9f306f5667217184499e82f",
+      "published_sha256": "912bc335b136ffe3cf0a768c1798df2d1654aeabe9f306f5667217184499e82f",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/independent-review.json",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/independent-review.json",
+      "original_sha256": "d1abf701d8836a3660fbb0d39f401440a3dd732f759869324013b3440bd7fd86",
+      "published_sha256": "d1abf701d8836a3660fbb0d39f401440a3dd732f759869324013b3440bd7fd86",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/scope-amendment-audit.json",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/scope-amendment-audit.json",
+      "original_sha256": "6221b37b45149e991c7d12828901a3a2070197b94729f46b3843924eba3f5cb8",
+      "published_sha256": "6221b37b45149e991c7d12828901a3a2070197b94729f46b3843924eba3f5cb8",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/input-manifest.json",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/input-manifest.json",
+      "original_sha256": "8c2888b13153f6394764d6a3d0bb76629df8ed194baa229c1de2251fc82f99b5",
+      "published_sha256": "8c2888b13153f6394764d6a3d0bb76629df8ed194baa229c1de2251fc82f99b5",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/feature-gate-acceptance.json",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/feature-gate-acceptance.json",
+      "original_sha256": "cd9dfa4055d1f69ae45738d5b809e9fb8b403fe707d225c7af407159eee1c3ec",
+      "published_sha256": "cd9dfa4055d1f69ae45738d5b809e9fb8b403fe707d225c7af407159eee1c3ec",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/engine-reuse-acceptance.json",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/engine-reuse-acceptance.json",
+      "original_sha256": "25c3629dff21e48fe847879d867b3ee65be82ecfe976e59b99075ba0d9f2b1c5",
+      "published_sha256": "25c3629dff21e48fe847879d867b3ee65be82ecfe976e59b99075ba0d9f2b1c5",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/root-tests.json",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/root-tests.json",
+      "original_sha256": "a35d4f9acfa3b0b2a91d78ec12a78afed1f603162cca712c3082ab5a6a3d648c",
+      "published_sha256": "a35d4f9acfa3b0b2a91d78ec12a78afed1f603162cca712c3082ab5a6a3d648c",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/scope-tests.json",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/scope-tests.json",
+      "original_sha256": "6eb8029a630dc58ccc4b140687ddd3e6f85ba39b7017e4b48cde0e070dfb74cb",
+      "published_sha256": "6eb8029a630dc58ccc4b140687ddd3e6f85ba39b7017e4b48cde0e070dfb74cb",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/auditor-tests.json",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/auditor-tests.json",
+      "original_sha256": "df7c841dd072e2aa7321dceb829673bea089669339f9bf08dbcea0997d5ccf2c",
+      "published_sha256": "df7c841dd072e2aa7321dceb829673bea089669339f9bf08dbcea0997d5ccf2c",
+      "adapted": false
+    },
+    {
+      "path": "research/arb-runs/20261013-btw-microstructure-gate-experiment-0941/report-enrichment.json",
+      "source_scope": "research_workspace",
+      "source_relative_path": "state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/report-enrichment.json",
+      "original_sha256": "d2aba19fee2f4599f9205a0f51e72400136285a799f489ec4a47bf79a301f86d",
+      "published_sha256": "d2aba19fee2f4599f9205a0f51e72400136285a799f489ec4a47bf79a301f86d",
+      "adapted": false
+    }
+  ],
+  "excluded": [
+    "secrets and private runtime configs",
+    "raw market archives and derived tick data",
+    "orders/cycles/equity ledgers and per-cycle attribution",
+    "feature arrays and binary tapes",
+    "compiled binaries and virtual environments",
+    "BTC CTA source and shared Git history"
+  ],
+  "adaptations": "C++ reader includes made relative; current document links redirected; old docs labeled historical. Original experiment files are unchanged. Historical source runners may still require local path configuration and separately licensed input data."
+}

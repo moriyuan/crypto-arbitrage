@@ -1,0 +1,625 @@
+{
+  "created_utc": "2026-10-13T09:55:49.461577+00:00",
+  "execution_enabled": false,
+  "protocol_sha256": "efe60bc4a2dbed66d55b4e40a3a5d18d20b9b1db18dbd4db8535728dd4724a74",
+  "policies_sha256": "a765f4a3b1f94c63855eec441b7befb489741bb35799a0c1ad05c72906b96e2f",
+  "original_input_manifest": {
+    "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-perfect-taker-optimization-021035Z/input-manifest.json",
+    "sha256": "3b1e02754bbb90ee8a3e48179f780f530103f718cbbf6489972d1e9aae01b24e"
+  },
+  "features_manifest": {
+    "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/manifest.json",
+    "sha256": "505e021823ad1852cd7887fde5439251a6eac559d09d3617a395b3b56ea7a7d6"
+  },
+  "execution_code_sha256": {
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/perfect_taker": "0374a57e930c0997772c264206de3194dd04a86e66c271a97c776118c614cdc2",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/perfect_taker.cpp": "bb7a9f03239e1e91dd0a0b6e77bf56a03f3c733e881a93918d6945a15e397ef8",
+    "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-code/cohort_replay.cpp": "30117b2c430c14c933d9ad66b443c9cd3425d55b05df929ddaf79b2a3699bee3"
+  },
+  "feature_code_sha256": {
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/build_features.py": "bfc060a02e8ee193a626311b2ec858c22f1ec7fba893a2296a21778cfdb62105",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/extract_book_events.py": "5949565880557531b6c718f968352b2a82aaae9c4c4a90ff916d7ff47fccc7fc"
+  },
+  "days": {
+    "2026-08-01": {
+      "source_summary": {
+        "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-08-01/replay-causal-noon/summary.json",
+        "sha256": "6cf6f8eed24568ada4e198b38c35ba735925c1f80b8b8713f6ea7a285506acde"
+      },
+      "entry_start_ns": 1785585600000000000,
+      "end_ns_exclusive": 1785628800000000000,
+      "files": {
+        "tape": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-08-01/tape/tape.bin",
+          "sha256": "02173e31380825647823491f96f985060928806f49775d17f6ac13e7760e9de0"
+        },
+        "activity": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-08-01/activity/features-decisions.bin",
+          "sha256": "de42ecf68ddf7e8cf3c054e2275ab342da75d793c5758217e3045f942843990b"
+        },
+        "trades": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-08-01/activity/live-trades.bin",
+          "sha256": "092f47d4bcbd43279547685afaa4fa4b5990af6544c8e46eef42d6b5c033964c"
+        },
+        "thresholds": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-08-01/thresholds.csv",
+          "sha256": "97aaf0ba48c764e6e26048080c1ac1a8142f24611934fd4511b365d24d53d79a"
+        },
+        "funding_schedule": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-08-01/funding/causal-schedule.json",
+          "sha256": "77b7da4c99d96596a392b692987f658331b42c7ad8674d2ec97b856e243002c2"
+        },
+        "funding_events": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-08-01/funding/events.json",
+          "sha256": "d6db7f96bafb9254353efa69c5474c7ad1e342ba7f5de8bf03d3b5951c5ec27a"
+        },
+        "funding_acceptance": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-08-01/funding/acceptance.json",
+          "sha256": "a3783d5e7b201b36a8eee646e3ad9e0c8b6515de97806012346809afd03c0bb7"
+        },
+        "funding_csv": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-perfect-taker-optimization-021035Z/inputs/2026-08-01-funding.csv",
+          "sha256": "74969b6f5831701a556bb9740267053709452a50349eb9918700d53b0a39bd6a"
+        },
+        "entry_gates": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/entry-gates.bin",
+          "sha256": "34287a37c05867e106df3b9cfd48c498325c35a3a0bf086a42310dcec7b28519"
+        },
+        "book_events": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/book-events/2026-08-01/events.bin",
+          "sha256": "9387876cf21b8b7f58ec239144fb2148087b6694f8674879d7ce933b959840ec"
+        },
+        "activity_events": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-08-01/activity/activity-events.bin",
+          "sha256": "82f517c5012ccd431bf4abb9f9761f0942c5e0e9ad389ee5729f590fae52d913"
+        }
+      },
+      "feature_evidence": {
+        "feature_index": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/feature-index.json",
+          "sha256": "99be4a246b211fc183a75087cf7a6242931be61524b2be7f00f1d2833b1e40fb"
+        },
+        "feature_metadata": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/metadata.json",
+          "sha256": "e43c56ae02b2b8931a18709faf34d315867fe535a69105d14ed88745109a8f05"
+        },
+        "coverage": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/coverage.json",
+          "sha256": "bf17b4f55fe19ba30cf850f7962b32794dabc4f80d0fd0ed9ff2decbd233bd48"
+        },
+        "book_event_metadata": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/book-events/2026-08-01/metadata.json",
+          "sha256": "55df10011bbee9734c9f91262634192f1d47e207ac1043d592e2f94f4fd0afe2"
+        },
+        "features_manifest": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/manifest.json",
+          "sha256": "505e021823ad1852cd7887fde5439251a6eac559d09d3617a395b3b56ea7a7d6"
+        },
+        "feature_chunk_00000": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00000.npz",
+          "sha256": "890e417ee01226a4d193851c6c6c89e6848e84ac47253335251e2aaeb2e64724"
+        },
+        "feature_chunk_00001": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00001.npz",
+          "sha256": "6466dc3af1ee04800278a7c5787a03076d5269855ddde6dd719518103d9d1955"
+        },
+        "feature_chunk_00002": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00002.npz",
+          "sha256": "65678596b718bb5bbaac74f9470aee8b72e8deaef6ee42f777d4e384c7c9933d"
+        },
+        "feature_chunk_00003": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00003.npz",
+          "sha256": "12cd839da0b7ad17ca9612973cd47b1f1687bee4e4fb35db73cf378482379ee4"
+        },
+        "feature_chunk_00004": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00004.npz",
+          "sha256": "60586eef5abf20a3acd0cd0a20de9fc52344a5daccd6b652aa78373c8d4a34a8"
+        },
+        "feature_chunk_00005": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00005.npz",
+          "sha256": "dd95dfb7eafe52168ae14405a6e22efc7c3d3337a05fde9e45f4c50b9abb47e5"
+        },
+        "feature_chunk_00006": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00006.npz",
+          "sha256": "079727dc8861fc592927989a3e0a78e1793cf461e76b91d686c4ba5f26359f8f"
+        },
+        "feature_chunk_00007": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00007.npz",
+          "sha256": "89b011d232537e8443f5c3a36e1d1b2a5d743d20237ca0c727e36879ebaa3f4f"
+        },
+        "feature_chunk_00008": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00008.npz",
+          "sha256": "12b72df2f0d934ae27175fb3a923eda98077aad9c8ebf4e2279754f20925859b"
+        },
+        "feature_chunk_00009": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00009.npz",
+          "sha256": "45ef6aac64ef2391cfa41d277e8c116bc28ebe2de30c33a8dbbbfee9bd89b3bf"
+        },
+        "feature_chunk_00010": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00010.npz",
+          "sha256": "1306b8db8ea352250bddfb637cf81592b70bb5f448859f7f3cdc00a0f70d6c6e"
+        },
+        "feature_chunk_00011": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00011.npz",
+          "sha256": "7699cc61e67efc29aae22f4b3a92501d3c0ace71b7ec1ab1efd1ca9d24b54252"
+        },
+        "feature_chunk_00012": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00012.npz",
+          "sha256": "1ad25ef2b9e91b044114a2fea02515cd207ae4a3a76cb939ca235f20475b6f16"
+        },
+        "feature_chunk_00013": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00013.npz",
+          "sha256": "d075cc959934888724b861f936179cc9d9f8dc556571af0ce4066cf5cdc26d51"
+        },
+        "feature_chunk_00014": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00014.npz",
+          "sha256": "9d57f0590f3b4a624623b48ba2e9747f0f4ece3cf52849b7b1d733658056b5d5"
+        },
+        "feature_chunk_00015": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00015.npz",
+          "sha256": "3a55659ff8c0b9b317ee35e52fb382b1e5c0950a713b796dee7ec1b19f22549e"
+        },
+        "feature_chunk_00016": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00016.npz",
+          "sha256": "fd491d277a450e85108b39792acbd91bcdcf754bf1edd442688898eaa564194e"
+        },
+        "feature_chunk_00017": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00017.npz",
+          "sha256": "e390fa10484af1a9acf385beabf059c6ea7be7eda3e3e7cc90e2085b22979702"
+        },
+        "feature_chunk_00018": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00018.npz",
+          "sha256": "7d64d4489c82a8c4363b56a9b33c8e6f8f9ec1a7692b47b42c6f181492bb19f6"
+        },
+        "feature_chunk_00019": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00019.npz",
+          "sha256": "7b7ce7970c740367c2afcc09e4ac5ba7485e31e810020f2f3982a10e0e428c5a"
+        },
+        "feature_chunk_00020": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00020.npz",
+          "sha256": "025200f92acb9cca18d7fabfba75d08b30f91622bde670b710f37063e9f570a7"
+        },
+        "feature_chunk_00021": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00021.npz",
+          "sha256": "1bb1933d933f8ebdfa5face53f8639257b13618a7c3d76d5bf9413b935c8c03c"
+        },
+        "feature_chunk_00022": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00022.npz",
+          "sha256": "217b90a692dc27524c208a165ebe6573cffb38037d4e110025142ad24ae4f936"
+        },
+        "feature_chunk_00023": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00023.npz",
+          "sha256": "5df5006595bd8a9e4a317586a7983ce7ec53c0d8cf07e17cedc2671afa28bdf8"
+        },
+        "feature_chunk_00024": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00024.npz",
+          "sha256": "65bde6e0d4d3d1b94e78954b69a0036179cd8a9874038cced01cd15606f9e5a6"
+        },
+        "feature_chunk_00025": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00025.npz",
+          "sha256": "ffe4dab82ce13b09a92583c9c8d147df57f5e4814180506919ecb6f4d9c3b412"
+        },
+        "feature_chunk_00026": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00026.npz",
+          "sha256": "aa3029a467bb1a9b2f0ec3b4f2d2d9e979f8a775eb31529a21c378e87303f761"
+        },
+        "feature_chunk_00027": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00027.npz",
+          "sha256": "1f1440bcd88c52c83cdc347d0ce438b715e1e2f0152b42c5fd0cab79f0d905a2"
+        },
+        "feature_chunk_00028": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00028.npz",
+          "sha256": "2f6bd0ce61b0427c3c1cd159ffe5b28c46d0455d6b952f0e2a522b1a3c0f907c"
+        },
+        "feature_chunk_00029": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00029.npz",
+          "sha256": "a47171606f37820cf4262ea15fb7a364964a47fe5afb80afa0781fb7488f2be0"
+        },
+        "feature_chunk_00030": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00030.npz",
+          "sha256": "10f0ad35c4cb981850a3401426664593d17e61071b9185a0bbf212917cff1e87"
+        },
+        "feature_chunk_00031": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00031.npz",
+          "sha256": "e28b56fbca10075a71944a26f93d6afc8087d572f82312044ab107cda00a2926"
+        },
+        "feature_chunk_00032": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00032.npz",
+          "sha256": "67b197f38da654152f1d938e0ba88269411b7553eef74001d1bc08d170f232eb"
+        },
+        "feature_chunk_00033": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00033.npz",
+          "sha256": "0152e8de180fcc8a09849c7a0a6512ccfd618979de4235e4e70fb30196e0a24d"
+        },
+        "feature_chunk_00034": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00034.npz",
+          "sha256": "152c38974332c9fc8270d719ca13e9e6a9077bdd8c9be96c795833e8460d9c46"
+        },
+        "feature_chunk_00035": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00035.npz",
+          "sha256": "8f4411eb65f0c1039e923e3cf4b59a7c27d9a1d502846a0d8457214ea10231a6"
+        },
+        "feature_chunk_00036": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00036.npz",
+          "sha256": "a1f4a89f3027d6a2ddfbf832360ec921a57596fa4cc58e9b918903ba3e4d9471"
+        },
+        "feature_chunk_00037": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00037.npz",
+          "sha256": "5bd210e2d2e1564ddd4b56127769e7add651ecfcb7a222acf31d0f65ad7e5db9"
+        },
+        "feature_chunk_00038": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00038.npz",
+          "sha256": "95cac68f90dfc9534b6cd6db82e72672ce6658c01adac412ad6e255539bc2e28"
+        },
+        "feature_chunk_00039": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00039.npz",
+          "sha256": "7b3b6ffabb6831b08bf7f64f339a14b616625d830d35dfadbe8c4668e4387322"
+        },
+        "feature_chunk_00040": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00040.npz",
+          "sha256": "63fda26d0d0ee6c3a2c1a9e8358ad53071a263d65948f21e91dd314c72e9e8d0"
+        },
+        "feature_chunk_00041": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-08-01/native-00041.npz",
+          "sha256": "06d235db11f7b6e61490dc8e95fb558fec9fae1ec8219f9ffed8b8acf446218b"
+        }
+      }
+    },
+    "2026-09-01": {
+      "source_summary": {
+        "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-09-01/replay-causal-noon/summary.json",
+        "sha256": "8eacc3a1c419d32baacefb04a1819e8535c865f34a9d596fa6bbef84338b3007"
+      },
+      "entry_start_ns": 1788264000000000000,
+      "end_ns_exclusive": 1788307200000000000,
+      "files": {
+        "tape": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-09-01/tape/tape.bin",
+          "sha256": "6f66defb5bdddff9d73c461f586479815b4d2bb250802bdd3334641932c51cc8"
+        },
+        "activity": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-09-01/activity/features-decisions.bin",
+          "sha256": "f467d819f1386bd085bb2c3faed1648d735ba414eaeda830714b8a6b2c3fe4ac"
+        },
+        "trades": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-09-01/activity/live-trades.bin",
+          "sha256": "6fc830c58a842e150b031307696d379398fd76eb2bc82bde2ec8676671878afd"
+        },
+        "thresholds": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-09-01/thresholds.csv",
+          "sha256": "80689deeae5fb7cb8f25172e816be3dd4963944ae131dfb8545a554991fc2d06"
+        },
+        "funding_schedule": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-09-01/funding/causal-schedule.json",
+          "sha256": "00107c61c3c2dc07cb3c1ef9d63e9bdd0751c6a34159cae3250b253b472119a2"
+        },
+        "funding_events": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-09-01/funding/events.json",
+          "sha256": "5c62544f74e25c743e46a611448fa46ade80f7d8da3b023422278b6d95202d77"
+        },
+        "funding_acceptance": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-09-01/funding/acceptance.json",
+          "sha256": "56b0dc9e3eda117ca9219cbf671fc8f9240d842f68e354ce178257850c4415df"
+        },
+        "funding_csv": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-perfect-taker-optimization-021035Z/inputs/2026-09-01-funding.csv",
+          "sha256": "1eb08847e99004b4c223c6f8adcf02d15c9706fc10c84412ae8ad801289ed0b7"
+        },
+        "entry_gates": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/entry-gates.bin",
+          "sha256": "448b9c929b37816bde722164cf593d56ec591e356a0fad4d9eeecf4dcc5806cf"
+        },
+        "book_events": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/book-events/2026-09-01/events.bin",
+          "sha256": "0a481a5e4ad4b1eeb910ad1249dd54c304f556b1752b615f21bea4dd81575649"
+        },
+        "activity_events": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-09-01/activity/activity-events.bin",
+          "sha256": "93b60b31b9de30c8712b675b41dfd8ad704dca35de856a1b24b71064a4a52795"
+        }
+      },
+      "feature_evidence": {
+        "feature_index": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/feature-index.json",
+          "sha256": "5899a729ae20fd089f80e576fb8d922962245a115e41594e493985113b63f09c"
+        },
+        "feature_metadata": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/metadata.json",
+          "sha256": "ddc5a860f0b700787de026a7ed07b3499b76d8b2b06cd9771773f1c3c2adb3e6"
+        },
+        "coverage": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/coverage.json",
+          "sha256": "80a5c13d0b07be78d52cc65ef6517a488669ee961bd001aa81b3e272ba4c85da"
+        },
+        "book_event_metadata": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/book-events/2026-09-01/metadata.json",
+          "sha256": "c78a39bc1541d95e0f12d3cbdf354f7408a03c209cb9155207d2ed509b64c309"
+        },
+        "features_manifest": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/manifest.json",
+          "sha256": "505e021823ad1852cd7887fde5439251a6eac559d09d3617a395b3b56ea7a7d6"
+        },
+        "feature_chunk_00000": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00000.npz",
+          "sha256": "7ba07a38790139a18141376aba06ec83cb5a746376395a1b76e427ae85f4bb7f"
+        },
+        "feature_chunk_00001": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00001.npz",
+          "sha256": "9c43fd9491553b7f3053d8cf2c615f749b1c95d6b65ec794b1a3251668dc0bbc"
+        },
+        "feature_chunk_00002": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00002.npz",
+          "sha256": "5e6909ebc9e6131dacb8a446f31e54f4f81429b1c5dbde8311d5c0c05d7aafe1"
+        },
+        "feature_chunk_00003": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00003.npz",
+          "sha256": "52e4489dd8d035707244a69f11cbd0ae91a8bf12ccf6bb879f8778cbded17509"
+        },
+        "feature_chunk_00004": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00004.npz",
+          "sha256": "3ff25b15543840631770b5ee4ae9c1d9b1ab5d23ed6c75142b8322ad68934fdd"
+        },
+        "feature_chunk_00005": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00005.npz",
+          "sha256": "1f791ef7368156899677a4b1630ba68f6c476f522cd4faf1b452ed38db8c4648"
+        },
+        "feature_chunk_00006": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00006.npz",
+          "sha256": "80fa7e691952f6368543457df72c7c5f5946501a5ee1adf0df510233a8cbf89d"
+        },
+        "feature_chunk_00007": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00007.npz",
+          "sha256": "7d3814b4889394e4704928163fa3cb773534ed06c2d0dd0ad80e3b7556d25461"
+        },
+        "feature_chunk_00008": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00008.npz",
+          "sha256": "1e26e520e6d85e639e83e77dcd1bafbf1f9a149c60fc11598f2578c0cd1972e9"
+        },
+        "feature_chunk_00009": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00009.npz",
+          "sha256": "8873acc761d116e2ff0be9e022538b9c40ba7de675fe497252197d65be8d41bb"
+        },
+        "feature_chunk_00010": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00010.npz",
+          "sha256": "de957bc17e2f4c653af6ca3876a76dc5548418e90c6cb466b564ff0da4f5c109"
+        },
+        "feature_chunk_00011": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00011.npz",
+          "sha256": "069f2d9d301069e54b29e93d53be55b4992eb49aa76c54c7e177f7f6ab90e9c3"
+        },
+        "feature_chunk_00012": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00012.npz",
+          "sha256": "bb42f6a92325dc1022629f1695e4fc0540cc390faa6bbb610cd01f6c1e86ea58"
+        },
+        "feature_chunk_00013": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00013.npz",
+          "sha256": "9ffaa1c266dc88a9c7323e97875b029f1ae0ef36a41c4c9ed44e821e4735f9f9"
+        },
+        "feature_chunk_00014": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00014.npz",
+          "sha256": "77de947ccac16320fa6b4d26a29a8b04f42c33a9dfefacef1106ea7f73d7a7c4"
+        },
+        "feature_chunk_00015": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00015.npz",
+          "sha256": "f0e7e84eb8c2679587e2df8e47e0d43378315bbc759482da1a6e0ae9b5b65ff6"
+        },
+        "feature_chunk_00016": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00016.npz",
+          "sha256": "12c1ef8126a3a7cd71ed5ec75cfa004001799ed135687410dfc23e2a586ae4f7"
+        },
+        "feature_chunk_00017": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00017.npz",
+          "sha256": "5d9d7f193c84f98127ce291ef811ea0e340e39f572aa9f6526f48f318296f6db"
+        },
+        "feature_chunk_00018": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-09-01/native-00018.npz",
+          "sha256": "9b0c1e9877617d50d5a1e79d2c638ef2f4f2fba4ebe18ec3f8e55ada5a86eb4f"
+        }
+      }
+    },
+    "2026-10-01": {
+      "source_summary": {
+        "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-as-comparison/days/2026-10-01/replay-causal-noon/summary.json",
+        "sha256": "3e4ee333aab13044e80892de97c6dedd96036b58b2226ae24487d81e63422c42"
+      },
+      "entry_start_ns": 1790856000000000000,
+      "end_ns_exclusive": 1790899200000000000,
+      "files": {
+        "tape": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-exit-tape-v2/tape.bin",
+          "sha256": "9eafa66d3ef8a768f1fde9604cdc3c68c68d40b609691c5ec0175b6085645814"
+        },
+        "activity": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-activity-maker/activity/features-decisions.bin",
+          "sha256": "b8ce2c126da669e5a048880c1443cd978ee162336d79a3b98e640a9c9f074aeb"
+        },
+        "trades": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-activity-maker/activity/live-trades.bin",
+          "sha256": "6da0500e39d1f7644787cc2ede087d92254ce5a82c1bbe574d628f029123e5bb"
+        },
+        "thresholds": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-activity-maker/thresholds.csv",
+          "sha256": "d34aa067c5ef48eb3eac9bbdf7de7365505937350c30aaf288c7ed15e3fd8fe8"
+        },
+        "funding_schedule": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261009-btw-oct1-funding/causal-schedule.json",
+          "sha256": "4c07d2cd971caac6521d3d19d77feb34e8fe07bf44335ae3aab73542e8d5b337"
+        },
+        "funding_events": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261009-btw-oct1-funding/events.json",
+          "sha256": "2dad8f2f62e59681b8d919b7fe6cefeee6658f133e54dd5629282a026464a730"
+        },
+        "funding_acceptance": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261009-btw-oct1-funding/acceptance.json",
+          "sha256": "1bbffaf96f68d3dccc4829510ea9a8e1c170917ec20b18b9babfeca2bca4e0df"
+        },
+        "funding_csv": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-perfect-taker-optimization-021035Z/inputs/2026-10-01-funding.csv",
+          "sha256": "45a48c09369f9fb015fc090925ed00eb9a7bac456e5724f9d7c6cff192005333"
+        },
+        "entry_gates": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/entry-gates.bin",
+          "sha256": "b9a579c4877ae46cfda8cfb152a8ba618ab69036bf5ce02215579157b111be96"
+        },
+        "book_events": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/book-events/2026-10-01/events.bin",
+          "sha256": "3cef87d103090301a6e552fc2108ea8f0a895b787598b3a26fa96fdd693913da"
+        },
+        "activity_events": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261012-btw-activity-maker/activity/activity-events.bin",
+          "sha256": "6519131bd438b61a33469e9e7ef46674dbf6ca9303ab096d239f964678a500a2"
+        }
+      },
+      "feature_evidence": {
+        "feature_index": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/feature-index.json",
+          "sha256": "5c9d2c98de91efe12b24b404392aa0129fc9aa230d1b6aebcfe647cf1f1cc0cd"
+        },
+        "feature_metadata": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/metadata.json",
+          "sha256": "72f8a8490de7be380a6c9e7793ccd5a1c603c54122023c57ba6983c0a5bac92d"
+        },
+        "coverage": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/coverage.json",
+          "sha256": "119019faeb7b2f153a5786add7bd28b4c783e125de8b6bd737300027c540f5fb"
+        },
+        "book_event_metadata": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/book-events/2026-10-01/metadata.json",
+          "sha256": "6b782238a4f85277379f5c222d12aa45315fb77836625dc72e9ee5e09a3f50a9"
+        },
+        "features_manifest": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/manifest.json",
+          "sha256": "505e021823ad1852cd7887fde5439251a6eac559d09d3617a395b3b56ea7a7d6"
+        },
+        "feature_chunk_00000": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00000.npz",
+          "sha256": "1ddfda615ded22a997e070fb51e0e6e0d08172c92118b2291dd1b8a431c33102"
+        },
+        "feature_chunk_00001": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00001.npz",
+          "sha256": "90cda701c1646968c73e2b3bc9fea60b0fcbbe199c36857da26ab823c1f61de9"
+        },
+        "feature_chunk_00002": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00002.npz",
+          "sha256": "c25cf156eb82c73b3231f4a847bb3e333be96d3c27a404084e2bd2294788f77a"
+        },
+        "feature_chunk_00003": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00003.npz",
+          "sha256": "69ba00a2793afdad5743419c2885635af32a364bc08836926463aa5cf315c6e0"
+        },
+        "feature_chunk_00004": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00004.npz",
+          "sha256": "b7c6200128f2b31d00038fafeac025c1f207a07409d3e759991dbb2d1039cc10"
+        },
+        "feature_chunk_00005": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00005.npz",
+          "sha256": "8cf85f3d72106069cbbea53d4f12f0c3faa6ecfb4067f308b2311e5b5338d855"
+        },
+        "feature_chunk_00006": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00006.npz",
+          "sha256": "6a063495d4c63e73696d911eb083cafe13e5e59457271d9f8362409ca81a45c2"
+        },
+        "feature_chunk_00007": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00007.npz",
+          "sha256": "fb101d18434353cf7a040273b174e4186ae94af55b2f5c94158f2203b5a37ce7"
+        },
+        "feature_chunk_00008": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00008.npz",
+          "sha256": "1364b34b7af593f2c475a66118f0ad8501877894f20f8874b0907bbe738b6b5a"
+        },
+        "feature_chunk_00009": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00009.npz",
+          "sha256": "b53f17d3002ee42d6d4e11ec18dd97ad1831b3e851455c37c0d9532de822d5f7"
+        },
+        "feature_chunk_00010": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00010.npz",
+          "sha256": "2fe8cec68fa4dfd456720df197130e1cff7b6b2494b42963e190df03b61a62db"
+        },
+        "feature_chunk_00011": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00011.npz",
+          "sha256": "216acbfb7b578b311d526cc36f02c54ee7eb95db1fc91763954df02808cd2607"
+        },
+        "feature_chunk_00012": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00012.npz",
+          "sha256": "de0b7ef6b69d45b1b515412c4af3adffed6269ec1b5e77b83d329bf28a735b5d"
+        },
+        "feature_chunk_00013": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00013.npz",
+          "sha256": "8d5c95a219c28467fa91acc63fab4a53c0815fd05f8ad858290f2e322102eb0b"
+        },
+        "feature_chunk_00014": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00014.npz",
+          "sha256": "76e3ff39945ecc67c75284138cece186d40e1a24699b6acd29caf4ab35ec91e4"
+        },
+        "feature_chunk_00015": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00015.npz",
+          "sha256": "6f0e2cd3174bb67c117b9315f521032d921c3da90896c8f83dd4e22ef20f42b1"
+        },
+        "feature_chunk_00016": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00016.npz",
+          "sha256": "67df037c05039f54236e6a858536ea79203dda4822dc8c5fa9b875adc60a7605"
+        },
+        "feature_chunk_00017": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00017.npz",
+          "sha256": "09d0d1885da99be9e132c38af026631dbc3ec844be8d34c64ebda4f9b8df0691"
+        },
+        "feature_chunk_00018": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00018.npz",
+          "sha256": "6b2ec699c5afe5bf2ab6b840c2348282c631521ad015dc455fd6a188f27c8f47"
+        },
+        "feature_chunk_00019": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00019.npz",
+          "sha256": "49a480027644753ddf22db8240c328f0c83e802097f7023dee1cdaf7527eab64"
+        },
+        "feature_chunk_00020": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00020.npz",
+          "sha256": "7670f28340aa754ee4564b2afa74dbd130e37f6d1c80c6b9e5cf90ae083b4d78"
+        },
+        "feature_chunk_00021": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00021.npz",
+          "sha256": "131d37fd02e954cdee65f323f1018abce11fdf50f21504670e89b1ce6b7ef1be"
+        },
+        "feature_chunk_00022": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00022.npz",
+          "sha256": "11792645bae63cb9fb28a0054ac2fc1e54d5d099718685fcad74c87c59495163"
+        },
+        "feature_chunk_00023": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00023.npz",
+          "sha256": "8767c291b8cddd5097646e8a8b48f1d7b6ee6c07a7d651f193da73f1b89af237"
+        },
+        "feature_chunk_00024": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00024.npz",
+          "sha256": "d100fcd19ed69140cae1636bd481972699cdefe62ed7ff85f0907962f637c69d"
+        },
+        "feature_chunk_00025": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00025.npz",
+          "sha256": "3db40ceef713784958aa5189bc3f9b9fb90afd6ea550c32a84f3c79201bf607a"
+        },
+        "feature_chunk_00026": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00026.npz",
+          "sha256": "eb52d543f3110d76a4868c003898a090d884840fd4e27d3e03f4796160e1fae9"
+        },
+        "feature_chunk_00027": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00027.npz",
+          "sha256": "f850824fc2a6a6e106d2624849a9849f25b49a3254cd12421fedf32cf2f50907"
+        },
+        "feature_chunk_00028": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00028.npz",
+          "sha256": "2813a19cf27e6aee0efff26883259a34c6bf0f818fa84dd2b3226525bcaf7c20"
+        },
+        "feature_chunk_00029": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00029.npz",
+          "sha256": "91fee0a625cf1d4951dd010b2c873698e65f6d91f2af22e4fea72f6bd0da5f95"
+        },
+        "feature_chunk_00030": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00030.npz",
+          "sha256": "afc41b48f1c60fa65f44ffa364e882e99bd481ed089a4e2fc83a1b951c79e233"
+        },
+        "feature_chunk_00031": {
+          "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/features/2026-10-01/native-00031.npz",
+          "sha256": "e34c0d7bc65b23fee5ad5b4f9476fc63bdc325ee265c3f04e4670d78206fc595"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE",
+  "created_utc": "2026-10-13T10:07:28.165641+00:00",
+  "scope": "Add concrete descriptive findings only; no ledgers or parameters changed",
+  "automatically_generated_report_sha256": "fde3d41253ee5d1991c7fb3f0c9d80c91b19cc567d19d5cfd31eafb4df1240db",
+  "final_report_sha256": "070fab38e6d61ac734bfe79f4ffcc9da4988727a6614ab149410b8860e0cfccc",
+  "source_sha256": {
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/comparison.json": "346ef79b8cb29973a76b8623729f73b9b906cfed1c58fcdf10460b47b87a1f59",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/attribution.json": "c24023831d784818945daf307310813db5846b46db1b8c31d032c3c35aaf9beb",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/scope-amendment.json": "87f985b0f0a530e0f05b52a80e2052fba8e6a7bd79f0d179cd4e84b615d0d7bf",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/summarize.log": "481f113678511d75334c1eaf3b01ce491385122cba8b52df73c4849a6bc55f1b"
+  },
+  "pre_review_report_sha256": "75d2979a2a3ccec9134fc800a275d185113694ba280d66c550832fb4ca1baec2",
+  "review_adjustment": "Narrow missing-data interpretation to observed identical coverage-control paths; no causal exclusion for newly arising entry paths."
+}

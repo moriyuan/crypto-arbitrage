@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "tests": 15,
+  "exit_code": 0,
+  "command": ".venv/bin/python -m pytest -q -p no:cacheprovider state/arb-runs/20261013-btw-microstructure-gate-code/test_apply_scope.py state/arb-runs/20261013-btw-microstructure-gate-code/test_summarize_experiment.py",
+  "tool_output_chunk_id": "b84e55",
+  "observed_stdout": "............... [100%]",
+  "source_sha256": {
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/apply_scope.py": "f74761a2f06333772f70e6f63769f92255aa85be37d6cda792f2b11295b659cc",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/test_apply_scope.py": "1223a6f9a8920bfa65e35140315a06e92e30458fef9e11d4483d3aa3fc11a790",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/summarize_experiment.py": "643bf3f60aefcbb24a98bc4d5a3f5bc68935d53973b0382823c326df809fd193",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/test_summarize_experiment.py": "388956706e5d1ec14be2d2ebd5907affc04d467b9643818af96762ae58887178",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/selection.py": "d7699ed02a864a8bdd467d1f515f4c54836436bba1fde14970803022c753cae3"
+  }
+}

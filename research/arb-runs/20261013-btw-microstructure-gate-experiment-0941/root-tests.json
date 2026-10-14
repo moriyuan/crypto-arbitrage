@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "execution_enabled": false,
+  "test_cases": 21,
+  "groups": {
+    "selection": 8,
+    "feature_acceptance_binding": 3,
+    "summary": 10
+  },
+  "command": "python -m pytest -q -p no:cacheprovider test_selection.py test_freeze_binding.py test_summarize_experiment.py",
+  "method": "Reused characterized engine and selection/accounting tests; adapted explicit controls and native-event feature coverage; added invalid control regression. No new matching behavior.",
+  "code_sha256": {
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/prepare.py": "65d7c8bbb80fe022af6978a9db5ab37e7524334e22651374c621185660057a41",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/run_day.py": "f4dc47c14d20e247c5d0e2540a1f4541b1c554722d2c704055ae42055b9e10c5",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/freeze_selection.py": "d173eab3ba4ab59c2d049df77efd499b90e9d47fd3649834058b581fb3808032",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/selection.py": "d7699ed02a864a8bdd467d1f515f4c54836436bba1fde14970803022c753cae3",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/summarize_experiment.py": "4c97695a7852b87623b3f6e1596a14090ece2c37a78f4f2810e7597ef158f543",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/test_selection.py": "a532becc0c63c62cf715b7505686ee3357fbf864931b8044264d0d8cdeee7c2f",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/test_freeze_binding.py": "b25f3909cfbe71fb3595c5cdf4442b3f2918739f15b01c33e199c1906ebb1ee9",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/test_summarize_experiment.py": "388956706e5d1ec14be2d2ebd5907affc04d467b9643818af96762ae58887178"
+  }
+}

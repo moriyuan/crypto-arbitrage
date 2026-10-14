@@ -1,0 +1,61 @@
+{
+  "status": "COMPLETE",
+  "completed_utc": "2026-10-13T10:09:23.175643+00:00",
+  "execution_enabled": false,
+  "symbol": "BTWUSDT",
+  "volatility_entry_filters_enabled": false,
+  "spread_persistence_entry_filter_enabled": false,
+  "selected_id": "baseline",
+  "eligible_candidates": 0,
+  "active_policies": 10,
+  "active_day_scenarios": 30,
+  "active_scenario_cycle_records": 1441,
+  "active_scenario_order_records": 5764,
+  "count_scope": "Alternative independent scenarios, NOT trades of a combined portfolio",
+  "original_archived_scenarios": 42,
+  "excluded_policies": [
+    "persist_50",
+    "persist_100",
+    "persist50_trade100",
+    "persist50_book100_trade100"
+  ],
+  "selection_scope": "August1/September1 fit only, October1 diagnostic; user removed persistence groups after replay, original frozen evidence retained",
+  "cash_and_fee_audit": "PASS",
+  "funding_status": "VERIFIED_NO_SETTLEMENT",
+  "unresolved_qty": 0,
+  "independent_review": "PASS",
+  "scope_review": "PASS",
+  "new_scope_and_summary_tests": 15,
+  "source_sha256": {
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/protocol.json": "efe60bc4a2dbed66d55b4e40a3a5d18d20b9b1db18dbd4db8535728dd4724a74",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/policies.csv": "a765f4a3b1f94c63855eec441b7befb489741bb35799a0c1ad05c72906b96e2f",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/input-manifest.json": "8c2888b13153f6394764d6a3d0bb76629df8ed194baa229c1de2251fc82f99b5",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/selection-frozen.json": "e7178282d9e43aa46bfe975beeb69fa5f0e1d2ead6f5e5b7fd55b66433a67952",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/grid-scores.json": "6e857be4b6900bc501462eb7fbf03cc7d32e69ee8118381dee2058fc6268f5da",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/scope-amendment.json": "87f985b0f0a530e0f05b52a80e2052fba8e6a7bd79f0d179cd4e84b615d0d7bf",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/comparison.json": "346ef79b8cb29973a76b8623729f73b9b906cfed1c58fcdf10460b47b87a1f59",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/comparison.csv": "912bc335b136ffe3cf0a768c1798df2d1654aeabe9f306f5667217184499e82f",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/attribution.json": "c24023831d784818945daf307310813db5846b46db1b8c31d032c3c35aaf9beb",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/report.md": "070fab38e6d61ac734bfe79f4ffcc9da4988727a6614ab149410b8860e0cfccc",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/report-enrichment.json": "d2aba19fee2f4599f9205a0f51e72400136285a799f489ec4a47bf79a301f86d",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/summarize.log": "481f113678511d75334c1eaf3b01ce491385122cba8b52df73c4849a6bc55f1b",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/independent-review.json": "d1abf701d8836a3660fbb0d39f401440a3dd732f759869324013b3440bd7fd86",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/scope-amendment-audit.json": "6221b37b45149e991c7d12828901a3a2070197b94729f46b3843924eba3f5cb8",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/feature-gate-acceptance.json": "cd9dfa4055d1f69ae45738d5b809e9fb8b403fe707d225c7af407159eee1c3ec",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/inherited-input-acceptance.json": "16493fca2fb6f715d21af356d4d221e009e0e92124ad7d87e9165c8287f3d186",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/engine-reuse-acceptance.json": "25c3629dff21e48fe847879d867b3ee65be82ecfe976e59b99075ba0d9f2b1c5",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/root-tests.json": "a35d4f9acfa3b0b2a91d78ec12a78afed1f603162cca712c3082ab5a6a3d648c",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/scope-tests.json": "6eb8029a630dc58ccc4b140687ddd3e6f85ba39b7017e4b48cde0e070dfb74cb",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/auditor-tests.json": "df7c841dd072e2aa7321dceb829673bea089669339f9bf08dbcea0997d5ccf2c"
+  },
+  "usage_documentation_sha256": {
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/README.md": "81e8956181ca15207e74cb0373c037791809707282f178329282f11197d058fe"
+  },
+  "limits": [
+    "Only three previously studied BTW dates; internal exploratory comparison",
+    "Ideal zero extra latency and full opposing L1 fills; exit depth may be assumed",
+    "L2 level update rates are not individual order arrival/cancellation rates",
+    "No new filter met selection requirements; no parameters deployed",
+    "No live orders or credentials accessed"
+  ]
+}

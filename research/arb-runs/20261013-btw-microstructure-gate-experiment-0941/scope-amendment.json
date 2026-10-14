@@ -1,0 +1,488 @@
+{
+  "created_utc": "2026-10-13T10:05:42.362866+00:00",
+  "status": "USER_SCOPE_APPLIED",
+  "execution_enabled": false,
+  "user_instruction": "价差持续不能作为入场阈值",
+  "volatility_entry_filters_enabled": false,
+  "spread_persistence_entry_filter_enabled": false,
+  "active_policy_ids": [
+    "baseline",
+    "book_coverage",
+    "trade_coverage",
+    "flow_coverage",
+    "book_100",
+    "book_200",
+    "trade_100",
+    "trade_200",
+    "book100_trade100",
+    "book200_trade100"
+  ],
+  "excluded_policy_ids": [
+    "persist_50",
+    "persist_100",
+    "persist50_trade100",
+    "persist50_book100_trade100"
+  ],
+  "applied_after_replay_results_available": true,
+  "selection_inputs": "Original August/September fit scores only; no new thresholds or October selection",
+  "selected_id": "baseline",
+  "eligible_candidates": 0,
+  "original_frozen_selected_id": "baseline",
+  "scored_active_policies": [
+    {
+      "id": "baseline",
+      "days": {
+        "2026-08-01": {
+          "net": "-10.0000550620",
+          "drawdown": "10.3072760580",
+          "cycles": 80,
+          "orders": 320,
+          "wins": 4,
+          "losses": 76,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "995.6040742000",
+            "bitget": "994.3958707380"
+          }
+        },
+        "2026-09-01": {
+          "net": "0.0722839930",
+          "drawdown": "0.2622467600",
+          "cycles": 17,
+          "orders": 68,
+          "wins": 8,
+          "losses": 9,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "1000.1819714100",
+            "bitget": "999.8903125830"
+          }
+        }
+      },
+      "worst_date_net": "-10.0000550620",
+      "sum_net": "-9.9277710690",
+      "sum_drawdown": "10.5695228180",
+      "coverage_control": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "not_candidate"
+      ]
+    },
+    {
+      "id": "book_coverage",
+      "days": {
+        "2026-08-01": {
+          "net": "-10.0000550620",
+          "drawdown": "10.3072760580",
+          "cycles": 80,
+          "orders": 320,
+          "wins": 4,
+          "losses": 76,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "995.6040742000",
+            "bitget": "994.3958707380"
+          }
+        },
+        "2026-09-01": {
+          "net": "0.0722839930",
+          "drawdown": "0.2622467600",
+          "cycles": 17,
+          "orders": 68,
+          "wins": 8,
+          "losses": 9,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "1000.1819714100",
+            "bitget": "999.8903125830"
+          }
+        }
+      },
+      "worst_date_net": "-10.0000550620",
+      "sum_net": "-9.9277710690",
+      "sum_drawdown": "10.5695228180",
+      "coverage_control": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "not_candidate"
+      ]
+    },
+    {
+      "id": "trade_coverage",
+      "days": {
+        "2026-08-01": {
+          "net": "-10.0000550620",
+          "drawdown": "10.3072760580",
+          "cycles": 80,
+          "orders": 320,
+          "wins": 4,
+          "losses": 76,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "995.6040742000",
+            "bitget": "994.3958707380"
+          }
+        },
+        "2026-09-01": {
+          "net": "0.0722839930",
+          "drawdown": "0.2622467600",
+          "cycles": 17,
+          "orders": 68,
+          "wins": 8,
+          "losses": 9,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "1000.1819714100",
+            "bitget": "999.8903125830"
+          }
+        }
+      },
+      "worst_date_net": "-10.0000550620",
+      "sum_net": "-9.9277710690",
+      "sum_drawdown": "10.5695228180",
+      "coverage_control": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "not_candidate"
+      ]
+    },
+    {
+      "id": "flow_coverage",
+      "days": {
+        "2026-08-01": {
+          "net": "-10.0000550620",
+          "drawdown": "10.3072760580",
+          "cycles": 80,
+          "orders": 320,
+          "wins": 4,
+          "losses": 76,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "995.6040742000",
+            "bitget": "994.3958707380"
+          }
+        },
+        "2026-09-01": {
+          "net": "0.0722839930",
+          "drawdown": "0.2622467600",
+          "cycles": 17,
+          "orders": 68,
+          "wins": 8,
+          "losses": 9,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "1000.1819714100",
+            "bitget": "999.8903125830"
+          }
+        }
+      },
+      "worst_date_net": "-10.0000550620",
+      "sum_net": "-9.9277710690",
+      "sum_drawdown": "10.5695228180",
+      "coverage_control": null,
+      "eligible": false,
+      "rejection_reasons": [
+        "not_candidate"
+      ]
+    },
+    {
+      "id": "book_100",
+      "days": {
+        "2026-08-01": {
+          "net": "-10.1249684010",
+          "drawdown": "10.4108719160",
+          "cycles": 79,
+          "orders": 316,
+          "wins": 3,
+          "losses": 76,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "994.9093574200",
+            "bitget": "994.9656741790"
+          }
+        },
+        "2026-09-01": {
+          "net": "0.2575090140",
+          "drawdown": "0.0907013240",
+          "cycles": 12,
+          "orders": 48,
+          "wins": 7,
+          "losses": 5,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "1000.2684801300",
+            "bitget": "999.9890288840"
+          }
+        }
+      },
+      "worst_date_net": "-10.1249684010",
+      "sum_net": "-9.8674593870",
+      "sum_drawdown": "10.5015732400",
+      "coverage_control": "book_coverage",
+      "eligible": false,
+      "rejection_reasons": [
+        "worst_day_not_improved"
+      ]
+    },
+    {
+      "id": "book_200",
+      "days": {
+        "2026-08-01": {
+          "net": "-10.0212179750",
+          "drawdown": "10.0212179750",
+          "cycles": 70,
+          "orders": 280,
+          "wins": 2,
+          "losses": 68,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "996.1732131800",
+            "bitget": "993.8055688450"
+          }
+        },
+        "2026-09-01": {
+          "net": "-0.0032761210",
+          "drawdown": "0.0472300280",
+          "cycles": 4,
+          "orders": 16,
+          "wins": 2,
+          "losses": 2,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "1000.0038391000",
+            "bitget": "999.9928847790"
+          }
+        }
+      },
+      "worst_date_net": "-10.0212179750",
+      "sum_net": "-10.0244940960",
+      "sum_drawdown": "10.0684480030",
+      "coverage_control": "book_coverage",
+      "eligible": false,
+      "rejection_reasons": [
+        "minimum_cycles_each_fit_day",
+        "worst_day_not_improved",
+        "fit_total_not_improved",
+        "coverage_control_not_improved"
+      ]
+    },
+    {
+      "id": "trade_100",
+      "days": {
+        "2026-08-01": {
+          "net": "-10.6338087740",
+          "drawdown": "10.6338087740",
+          "cycles": 105,
+          "orders": 420,
+          "wins": 9,
+          "losses": 96,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "998.6243270300",
+            "bitget": "990.7418641960"
+          }
+        },
+        "2026-09-01": {
+          "net": "-0.1903310410",
+          "drawdown": "0.2296974140",
+          "cycles": 15,
+          "orders": 60,
+          "wins": 7,
+          "losses": 8,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "999.9115635500",
+            "bitget": "999.8981054090"
+          }
+        }
+      },
+      "worst_date_net": "-10.6338087740",
+      "sum_net": "-10.8241398150",
+      "sum_drawdown": "10.8635061880",
+      "coverage_control": "trade_coverage",
+      "eligible": false,
+      "rejection_reasons": [
+        "worst_day_not_improved",
+        "fit_total_not_improved",
+        "coverage_control_not_improved"
+      ]
+    },
+    {
+      "id": "trade_200",
+      "days": {
+        "2026-08-01": {
+          "net": "-11.3657477380",
+          "drawdown": "11.3657477380",
+          "cycles": 85,
+          "orders": 340,
+          "wins": 4,
+          "losses": 81,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "997.0366247000",
+            "bitget": "991.5976275620"
+          }
+        },
+        "2026-09-01": {
+          "net": "-0.1995115030",
+          "drawdown": "0.2323622430",
+          "cycles": 12,
+          "orders": 48,
+          "wins": 5,
+          "losses": 7,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "999.9087753300",
+            "bitget": "999.8917131670"
+          }
+        }
+      },
+      "worst_date_net": "-11.3657477380",
+      "sum_net": "-11.5652592410",
+      "sum_drawdown": "11.5981099810",
+      "coverage_control": "trade_coverage",
+      "eligible": false,
+      "rejection_reasons": [
+        "worst_day_not_improved",
+        "fit_total_not_improved",
+        "coverage_control_not_improved"
+      ]
+    },
+    {
+      "id": "book100_trade100",
+      "days": {
+        "2026-08-01": {
+          "net": "-10.0067218900",
+          "drawdown": "10.0513705300",
+          "cycles": 96,
+          "orders": 384,
+          "wins": 7,
+          "losses": 89,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "998.2332876400",
+            "bitget": "991.7599904700"
+          }
+        },
+        "2026-09-01": {
+          "net": "0.0108536340",
+          "drawdown": "0.0483017210",
+          "cycles": 11,
+          "orders": 44,
+          "wins": 6,
+          "losses": 5,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "1000.0218683700",
+            "bitget": "999.9889852640"
+          }
+        }
+      },
+      "worst_date_net": "-10.0067218900",
+      "sum_net": "-9.9958682560",
+      "sum_drawdown": "10.0996722510",
+      "coverage_control": "flow_coverage",
+      "eligible": false,
+      "rejection_reasons": [
+        "worst_day_not_improved",
+        "fit_total_not_improved",
+        "coverage_control_not_improved"
+      ]
+    },
+    {
+      "id": "book200_trade100",
+      "days": {
+        "2026-08-01": {
+          "net": "-10.1644264660",
+          "drawdown": "10.1644264660",
+          "cycles": 69,
+          "orders": 276,
+          "wins": 2,
+          "losses": 67,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "996.4296369400",
+            "bitget": "993.4059365940"
+          }
+        },
+        "2026-09-01": {
+          "net": "-0.0032761210",
+          "drawdown": "0.0472300280",
+          "cycles": 4,
+          "orders": 16,
+          "wins": 2,
+          "losses": 2,
+          "unresolved_qty": 0,
+          "funding_status": "VERIFIED_NO_SETTLEMENT",
+          "accounting_pass": true,
+          "cash": {
+            "bybit": "1000.0038391000",
+            "bitget": "999.9928847790"
+          }
+        }
+      },
+      "worst_date_net": "-10.1644264660",
+      "sum_net": "-10.1677025870",
+      "sum_drawdown": "10.2116564940",
+      "coverage_control": "flow_coverage",
+      "eligible": false,
+      "rejection_reasons": [
+        "minimum_cycles_each_fit_day",
+        "worst_day_not_improved",
+        "fit_total_not_improved",
+        "coverage_control_not_improved"
+      ]
+    }
+  ],
+  "archive_note": "Frozen protocol, gate bit order and all replay ledgers preserved. Persistence scenarios are excluded historical experiments, not active candidates. Do not run the original full protocol as the current strategy.",
+  "source_sha256": {
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/protocol.json": "efe60bc4a2dbed66d55b4e40a3a5d18d20b9b1db18dbd4db8535728dd4724a74",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/policies.csv": "a765f4a3b1f94c63855eec441b7befb489741bb35799a0c1ad05c72906b96e2f",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/input-manifest.json": "8c2888b13153f6394764d6a3d0bb76629df8ed194baa229c1de2251fc82f99b5",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/selection-frozen.json": "e7178282d9e43aa46bfe975beeb69fa5f0e1d2ead6f5e5b7fd55b66433a67952",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/grid-scores.json": "6e857be4b6900bc501462eb7fbf03cc7d32e69ee8118381dee2058fc6268f5da",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/independent-review.json": "d1abf701d8836a3660fbb0d39f401440a3dd732f759869324013b3440bd7fd86"
+  },
+  "code_sha256": {
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/apply_scope.py": "f74761a2f06333772f70e6f63769f92255aa85be37d6cda792f2b11295b659cc",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/selection.py": "d7699ed02a864a8bdd467d1f515f4c54836436bba1fde14970803022c753cae3"
+  }
+}

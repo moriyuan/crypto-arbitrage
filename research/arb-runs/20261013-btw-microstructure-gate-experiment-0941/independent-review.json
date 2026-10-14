@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "execution_enabled": false,
+  "reviewed_utc": "2026-10-13T10:03:47.818585+00:00",
+  "review_source_sha256": "9e77f9476a60f3f13d5390e87625067cbc0e41d5ae3ab60b22f80534068cca79",
+  "scope": "All42 day-policies including explicit missing-data coverage controls; new code only entry gate and diagnostics, original sizing/fee/cash/risk paths unchanged",
+  "resolved_findings": [],
+  "unresolved_findings": [],
+  "days": {
+    "2026-08-01": {
+      "status": "PASS",
+      "scenarios": 14,
+      "cycles": 1052,
+      "orders": 4208,
+      "native_decisions": 4189048,
+      "baseline_exact_prior_q25_csv_sha256": {
+        "orders.csv": "9bafa9a485148b4adf5c9a2862a8f279e606e164a63394ba51a1622e3b659ea2",
+        "cycles.csv": "74abba5eac55f6f2fc48b3a20d5fcb283208475d1d39a5e562c0fa4d5028e53a",
+        "equity.csv": "c31097a7de37c6bec6126dd873589bcab7bda129db1f36b75ce8df83aff65f59"
+      },
+      "launch_started_utc": "2026-10-13T09:57:05.819939+00:00",
+      "completed_utc": "2026-10-13T09:57:10.369877+00:00"
+    },
+    "2026-09-01": {
+      "status": "PASS",
+      "scenarios": 14,
+      "cycles": 131,
+      "orders": 524,
+      "native_decisions": 1858653,
+      "baseline_exact_prior_q25_csv_sha256": {
+        "orders.csv": "a544cbe51cabbf0704285106534ed2c4de27b6025c835b63078a525ec2893566",
+        "cycles.csv": "f04bc9b23dbfb25a56c61acb4519247591352b0b16895286143b75bbd94dc686",
+        "equity.csv": "1b81bc9bc0f07382e516c35a8d7c69ac8f6ce57d2db8b5e47ae850a6edfc0405"
+      },
+      "launch_started_utc": "2026-10-13T09:57:05.218031+00:00",
+      "completed_utc": "2026-10-13T09:57:07.722466+00:00"
+    },
+    "2026-10-01": {
+      "status": "PASS",
+      "scenarios": 14,
+      "cycles": 508,
+      "orders": 2032,
+      "native_decisions": 3160784,
+      "baseline_exact_prior_q25_csv_sha256": {
+        "orders.csv": "2e454ca4c22263ae44ea8fbb2c33008bf4afdb3628887c1336020a0bd937db58",
+        "cycles.csv": "79604735269773b13b75206db2947395f848567282566bda1187d61f22d192c2",
+        "equity.csv": "407835ec7dd78f09870de7814f1c59264182808727fbf532489656dd912c5d05"
+      },
+      "launch_started_utc": "2026-10-13T10:00:15.511121+00:00",
+      "completed_utc": "2026-10-13T10:00:19.396412+00:00"
+    }
+  },
+  "feature_gate_acceptance_sha256": "cd9dfa4055d1f69ae45738d5b809e9fb8b403fe707d225c7af407159eee1c3ec",
+  "source_sha256": {
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-08-01/aggregate.json": "7926363ec88ad391d29f3fd3894f94a729ec57748a0d5a12b911a605fabed2ec",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-08-01/perfect-audit.json": "f856a9abd3df77413781210ca7b3fc73dae43e1236cad084506d87171b74c608",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-08-01/perfect-deep-audit.json": "e153dc7c18acb185bbb8c5c5f8928b32e562426ad34578e504b85d10a758e03c",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-08-01/perfect-deep-quotes.json": "7088a1d318f71d2e765277ee324f523a33fac93c3b9b3981c217eb50a5e912f8",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-08-01.launch.json": "3df43cc8c305103a064ac3f953529f972eceeeb68c1e32772b2bb1c39191cb6d",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-09-01/aggregate.json": "fa1e44962797423f21c7c04b0ccd813a18b9b4d5c7a0616bbf347f847e23738a",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-09-01/perfect-audit.json": "138aa94d4d645b7570a864f04799f0e7856f4c660c5967eb158b9ecc7e5b5ca6",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-09-01/perfect-deep-audit.json": "3e9a975c3e72fcdc70685c8f25c8ea3e6c354e618197e6e525e8c9c7c099c627",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-09-01/perfect-deep-quotes.json": "e0351c7a82b0f50939a771c2cc5395c6ed98648894e26f1cc8ef28e165900948",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/search/2026-09-01.launch.json": "b6143347509a2c7785ad25dd4cd46ec93d020bd575f0e1f5447866163f106487",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/evaluation/2026-10-01/aggregate.json": "cd495855d6ddacaf235fcaac81fd9ffc63fa36bce824c68e6e7f027769199807",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/evaluation/2026-10-01/perfect-audit.json": "a70d14886c79f45ee2249755a2659376c14f9f7ee7ac66e29aa1441e3bc95d7f",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/evaluation/2026-10-01/perfect-deep-audit.json": "bd9289ed4ba2d978644033cad05208b57596cf5b13f52df0d9bec7a5262c43c3",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/evaluation/2026-10-01/perfect-deep-quotes.json": "07854532a6955c2808704028fe519b3c7c66da042acd76e1e8c6d51ead8b5cc9",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-experiment-0941/evaluation/2026-10-01.launch.json": "b499bca80820ef4808d010add9e7c441a25f5c0ab8c339f3685d4467ed7c3d7b"
+  },
+  "selection_independently_recomputed": {
+    "selected_id": "baseline",
+    "eligible_count": 0,
+    "frozen_utc": "2026-10-13T09:59:58.619743+00:00",
+    "rules": "Each fitday>=10cycles,strict improvements in worst/total vsbaseline andtotal vscorrespondingcoverage control; October excluded fromselection"
+  },
+  "limitations": [
+    "Zero-trade/missing-feature days are not profitability improvements; coverage controls separate abstention",
+    "L2 aggregate price-level update rate is not individual order arrival or cancel rate; event counts are venue-specific feed measurements",
+    "All dates previously researched; exploratory internal validation only",
+    "Idealzero-added-latency synchronous fullL1 exits may exceed visibledepth; no impact or partialfills modeled",
+    "Every new book sidecar record was independently reread from raw archive through frozen adapter and compared; inherited trade/tape source semantics retained"
+  ]
+}

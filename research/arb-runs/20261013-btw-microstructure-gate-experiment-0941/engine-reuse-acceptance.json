@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "execution_enabled": false,
+  "scope": "Reused exact previous gate-capable engine and binary; no execution code change. Original41 engine tests not redundantly rerun; all new scenario execution will receive deep replay audit.",
+  "previous_engine_tests": {
+    "path": "/Users/mori/code/crypto/state/arb-runs/20261013-btw-volatility-gate-experiment-090710Z/engine-tests.json",
+    "sha256": "cc2f9cea8e04c7e96eabeec4f2e7166f91ac435178c1d398890beb5bc5ff8a29"
+  },
+  "code_sha256": {
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/perfect_taker": "0374a57e930c0997772c264206de3194dd04a86e66c271a97c776118c614cdc2",
+    "/Users/mori/code/crypto/state/arb-runs/20261013-btw-microstructure-gate-code/perfect_taker.cpp": "bb7a9f03239e1e91dd0a0b6e77bf56a03f3c733e881a93918d6945a15e397ef8"
+  },
+  "feature_builder_binding_confirmed": true
+}

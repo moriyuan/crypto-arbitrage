@@ -1,0 +1,48 @@
+{
+  "purpose": "Execution-only synthetic trigger, genuine Freqtrade dry-run fills; not an arbitrage signal or profitability test.",
+  "version": "2026.9",
+  "events": [
+    {
+      "mode": "dry_run",
+      "phase": "OPEN",
+      "cycle_id": "ca1-932d3452d5274ea8b84a9f816719cf14",
+      "reason": "",
+      "completed": 0,
+      "realized_pnl": "0",
+      "last_result": null
+    },
+    {
+      "mode": "dry_run",
+      "phase": "EXITING",
+      "cycle_id": "ca1-932d3452d5274ea8b84a9f816719cf14",
+      "reason": "native_smoke_cleanup",
+      "completed": 0,
+      "realized_pnl": "0",
+      "last_result": null
+    },
+    {
+      "mode": "dry_run",
+      "phase": "FLAT",
+      "cycle_id": null,
+      "reason": "",
+      "completed": 1,
+      "realized_pnl": "-0.27867742",
+      "last_result": {
+        "cycle_id": "ca1-932d3452d5274ea8b84a9f816719cf14",
+        "reason": "native_smoke_cleanup",
+        "net_pnl": "-0.27867742"
+      }
+    }
+  ],
+  "flat_by_venue": {
+    "bybit": true,
+    "bitget": true
+  },
+  "cycle_resolved": true,
+  "completed": 1,
+  "last_result": {
+    "cycle_id": "ca1-932d3452d5274ea8b84a9f816719cf14",
+    "reason": "native_smoke_cleanup",
+    "net_pnl": "-0.27867742"
+  }
+}
